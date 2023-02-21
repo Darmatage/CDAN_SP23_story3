@@ -87,7 +87,7 @@ public void next(){
         }
        else if (primeInt ==3){
                 Char1name.text = "SCRAPPY";
-                Char1speech.text = "(I've been livin' off a dead cockroaches for the past two weeks for cryin' out loud...)";
+                Char1speech.text = "(I've been livin' off dead cockroaches for the past two weeks for cryin' out loud...)";
                 Char2name.text = "";
                 Char2speech.text = "";
                 //gameHandler.AddPlayerStat(1);
@@ -110,15 +110,24 @@ public void next(){
                 Char1speech.text = "";
                 Char2name.text = "???";
                 Char2speech.text = "Hey, you okay?";
-				 nextButton.SetActive(false);
+				 
+        }
+		       else if (primeInt == 7){
+			    ArtChar2a.SetActive(true);
+                Char1name.text = "SCRAPPY";
+                Char1speech.text = "A customer...?!";
+                Char2name.text = "";
+                Char2speech.text = "";
+				nextButton.SetActive(false);
                 allowSpace = false;
                 Choice1a.SetActive(true);
 				Choice1b.SetActive(true);
 				
-        }
-      
+			   }
 // ENCOUNTER AFTER CHOICE #1
        else if (primeInt == 100){
+		   ArtChar2a.SetActive(false);
+		   ArtChar2b.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "RAT";
@@ -132,6 +141,8 @@ public void next(){
 
         }
 		       else if (primeInt == 102){
+				   ArtChar2a.SetActive(true);
+		        ArtChar2b.SetActive(false);
                 Char1name.text = "SCRAPPY";
                 Char1speech.text = "WELCOME VALUED CUSTOMER to my quaint little cart of goods!!";
                 Char2name.text = "";
@@ -145,6 +156,8 @@ public void next(){
                 Char2speech.text = "";
         }
        else if (primeInt == 104){
+		   ArtChar2a.SetActive(false);
+		   ArtChar2b.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "RAT";
@@ -152,36 +165,38 @@ public void next(){
 
         }
        else if (primeInt == 105){
+                ArtChar2a.SetActive(true);
+		        ArtChar2b.SetActive(false);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "RAT";
-                Char2speech.text = "Either way I don't want your garbaged, pal.";
+                Char2speech.text = "Either way I don't want your garbage, pal.";
 
         }
        else if (primeInt == 106){
                 Char1name.text = "SCRAPPY";
-                Char1speech.text = "GARBAGE? Listen buddy- I mean. Kind sir, I'm QUITE offended!!";
+                Char1speech.text = "GARBAGE? Listen buddy- I mean. Kind sir, I'm offended!!";
                 Char2name.text = "";
                 Char2speech.text = "";
 
         }
        else if (primeInt == 107){
                 Char1name.text = "SCRAPPY";
-                Char1speech.text = "These are only the highest of quality luxury items and gourmet foods!";
+                Char1speech.text = "These are the highest quality luxury items and gourmet foods!";
                 Char2name.text = "";
                 Char2speech.text = "";
 
         }
        else if (primeInt == 108){
                 Char1name.text = "SCRAPPY";
-                Char1speech.text = "F-for instance- you seem to be a rat with only the most distinguished of tastes! So...";
+                Char1speech.text = "F-for instance- you seem to be a rat with the most distinguished taste! So...";
                 Char2name.text = "";
                 Char2speech.text = "";
  
         }
        else if (primeInt == 109){
                 Char1name.text = "SCRAPPY";
-                Char1speech.text = "Does this buttery, creamy, delectable goat's milk cheese pique your interest?!? \n Straight from the swiss hills!";
+                Char1speech.text = "Does this delectable goat's milk cheese pique your interest?!?";
                 Char2name.text = "";
                 Char2speech.text = "";
 
@@ -201,6 +216,8 @@ public void next(){
 
         }
 		       else if (primeInt == 112){
+				   ArtChar2a.SetActive(false);
+		        ArtChar2b.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "RAT";
@@ -214,22 +231,11 @@ public void next(){
                 Char2speech.text = "";
 
         }
+		      
+        
 		       else if (primeInt == 114){
-                Char1name.text = "";
-                Char1speech.text = "";
-                Char2name.text = "RAT";
-                Char2speech.text = "You said it's from the swiss hills?";
-
-        }
-		       else if (primeInt == 115){
-                Char1name.text = "SCRAPPY";
-                Char1speech.text = "The capital of France is the city Swiss Hills.";
-                Char2name.text = "";
-                Char2speech.text = "";
-
-
-        }
-		       else if (primeInt == 116){
+				  ArtChar2a.SetActive(true);
+		        ArtChar2b.SetActive(false);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "RAT";
@@ -237,42 +243,48 @@ public void next(){
 
 
         }
-		       else if (primeInt == 117){
+		       else if (primeInt == 115){
                 Char1name.text = "SCRAPPY";
-                Char1speech.text = "Ohhh what. You a geographer now? A cheese connoisseur? \n You want my damn cheese or what.";
+                Char1speech.text = "Ohhh what. You a cheese connoisseur? \n You want my damn cheese or what.";
                 Char2name.text = "";
                 Char2speech.text = "";
 
         }
-		       else if (primeInt == 118){
+		       else if (primeInt == 116){
+		        ArtChar2a.SetActive(false);
+		        ArtChar2b.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "RAT";
-                Char2speech.text = "Pal you are REALLY startin' to piss me off here. Tryna pull a fast one on me huh?";
+                Char2speech.text = "You are REALLY startin' to piss me off here. Tryna pull a fast one on me?";
 
         }
-		       else if (primeInt == 119){
+		       else if (primeInt == 117){
                 Char1name.text = "SCRAPPY";
                 Char1speech.text = "Of course not! You shouldn't get so riled up little guy-";
                 Char2name.text = "";
                 Char2speech.text = "";
 
         }
-		       else if (primeInt == 120){
+		       else if (primeInt == 118){
+				    ArtChar2b.SetActive(false);
+		        ArtChar2d.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "RAT";
                 Char2speech.text = "LITTLE? WHO YOU CALLIN' LITTLE JACKASS?!";
 
         }
-		       else if (primeInt == 121){
+		       else if (primeInt == 119){
                 Char1name.text = "";
                 Char1speech.text = "The rat pulled a vial of liquid out of his jacket and drank it";
                 Char2name.text = "";
                 Char2speech.text = "";
 
         }
-		       else if (primeInt == 122){
+		       else if (primeInt == 120){
+				    ArtChar2d.SetActive(false);
+		        ArtChar2e.SetActive(true);
                 Char1name.text = "SCRAPPY";
                 Char1speech.text = "Ah. Motherfu";
                 Char2name.text = "";
@@ -296,6 +308,8 @@ public void next(){
                
         }
 		       else if (primeInt == 202){
+				    ArtChar2a.SetActive(false);
+		        ArtChar2c.SetActive(true);
                  Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "RAT";
@@ -303,6 +317,8 @@ public void next(){
                
         }
             else if (primeInt == 203){
+				ArtChar2a.SetActive(true);
+		        ArtChar2c.SetActive(false);
                  Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "RAT";
@@ -311,7 +327,7 @@ public void next(){
         }
 		       else if (primeInt == 204){
                 Char1name.text = "SCRAPPY";
-                Char1speech.text = "GARBAGE? Listen buddy- I mean. Kind sir, I'm QUITE offended!!";
+                Char1speech.text = "GARBAGE? Listen buddy- I mean. Kind sir, I'm offended!!";
                 Char2name.text = "";
                 Char2speech.text = "";
                
@@ -325,14 +341,14 @@ public void next(){
         }
 			   else if (primeInt == 206){
                 Char1name.text = "SCRAPPY";
-                Char1speech.text = "F-for instance- you seem to be a rat with only the most distinguished of tastes! So...";
+                Char1speech.text = "F-for instance- you seem to be a rat with the most distinguished taste! So...";
                 Char2name.text = "";
                 Char2speech.text = "";
                
         }		
 		       else if (primeInt == 207){
                 Char1name.text = "SCRAPPY";
-                Char1speech.text = "Does this buttery, creamy, delectable goat's milk cheese pique your interest?!? \n Straight from the swiss hills!";
+                Char1speech.text = "Does this delectable goat's milk cheese pique your interest?!?";
                 Char2name.text = "";
                 Char2speech.text = "";
              
@@ -352,13 +368,17 @@ public void next(){
 
         }
 			   else if (primeInt == 210){
+				   ArtChar2a.SetActive(false);
+		        ArtChar2c.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "RAT";
-                Char2speech.text = "Gourmet... I ain't ever had fancy food before...";
+                Char2speech.text = "Gourmet... I ain't never had fancy food before...";
                
         }		
 			   else if (primeInt == 211){
+				   ArtChar2c.SetActive(false);
+		        ArtChar2a.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "RAT";
@@ -366,6 +386,8 @@ public void next(){
                
         }		
 			   else if (primeInt == 212){
+				   ArtChar2a.SetActive(false);
+		        ArtChar2c.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "RAT";
@@ -373,6 +395,8 @@ public void next(){
               
         }		
 			   else if (primeInt == 213){
+				   ArtChar2a.SetActive(true);
+		        ArtChar2c.SetActive(false);
                 Char1name.text = "SCRAPPY";
                 Char1speech.text = "I'm... not sure. I need money bad, but it's cuz' I'm in danger...";
                 Char2name.text = "";
@@ -387,6 +411,8 @@ public void next(){
              
         }		
 			   else if (primeInt == 215){
+				      ArtChar2a.SetActive(false);
+		        ArtChar2c.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "RAT";
@@ -405,6 +431,8 @@ public void next(){
 				
         }		
 		       else if (primeInt == 300){
+				   ArtChar2a.SetActive(true);
+		        ArtChar2c.SetActive(false);
                 Char1name.text = "";
                 Char1speech.text = "The rat shrugged his shoulders.";
                 Char2name.text = "";
@@ -412,6 +440,8 @@ public void next(){
                
         }
 		       else if (primeInt == 301){
+				   ArtChar2a.SetActive(false);
+		        ArtChar2b.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "RAT";
@@ -419,6 +449,8 @@ public void next(){
                 
         }
 		       else if (primeInt == 302){
+				ArtChar2a.SetActive(true);
+		        ArtChar2b.SetActive(false);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "RAT";
@@ -426,6 +458,7 @@ public void next(){
                
         }
 		       else if (primeInt == 303){
+				   ArtChar2a.SetActive(false);
                 Char1name.text = "";
                 Char1speech.text = "The rat turned and continued down the alley.";
                 Char2name.text = "";
@@ -456,13 +489,15 @@ public void next(){
                 NextScene2Button.SetActive(true);
         }
 		       else if (primeInt == 400){
-                Char1name.text = "I got these... guys I owe. Watching me like a hawk-and my deadline's tonight!!!";
-                Char1speech.text = "";
+                Char1name.text = "SCRAPPY";
+                Char1speech.text = "I got these... guys I owe and my deadline's tonight!!!";
                 Char2name.text = "";
                 Char2speech.text = "";
                 
         }
 		       else if (primeInt == 401){
+				   ArtChar2a.SetActive(false);
+		        ArtChar2b.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "RAT";
@@ -470,17 +505,19 @@ public void next(){
               
         }
 		       else if (primeInt == 402){
+				    ArtChar2b.SetActive(false);
+		        ArtChar2c.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "RAT";
-                Char2speech.text = "The rat's got your scrawny little back!";
+                Char2speech.text = "The rats got your scrawny little back!";
                
         }
 		       else if (primeInt == 403){
                 Char1name.text = "";
                 Char1speech.text = "";
-                Char2name.text = "Hey, thanks for the cheese. The boys and me are gonna eat gooood tonight!";
-                Char2speech.text = "";
+                Char2name.text = "RAT";
+                Char2speech.text = "Hey, thanks for the cheese. The boys and me are gonna eat gooood tonight!";
              
         }
 		       else if (primeInt == 404){
@@ -491,6 +528,7 @@ public void next(){
               
         }
 		       else if (primeInt == 405){
+				   ArtChar2c.SetActive(false);
                 Char1name.text = "";
                 Char1speech.text = "SCRAPPY swiftly exited the alley before getting caught.";
                 Char2name.text = "";
@@ -547,7 +585,7 @@ public void next(){
                 allowSpace = true;
         }
         public void SceneChange1(){
-               SceneManager.LoadScene("EndLose");
+               SceneManager.LoadScene("EndLose1Rat");
         }
         public void SceneChange2(){
                 SceneManager.LoadScene("Scene3");

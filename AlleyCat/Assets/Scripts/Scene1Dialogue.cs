@@ -128,7 +128,7 @@ public void next(){
                 Char2speech.text = "You know why we’re here, cat.";
                 Char3name.text = "";
                 Char3speech.text = "";				
-                Char4name.text = "BOSS";
+                Char4name.text = "";
                 Char4speech.text = "";	
                 //gameHandler.AddPlayerStat(1);
         }
@@ -432,7 +432,7 @@ public void next(){
         }
 
         public void SceneChange1(){
-               SceneManager.LoadScene("Scene2a");
+               SceneManager.LoadScene("Scene2");
         }
         // public void SceneChange2(){
                 // SceneManager.LoadScene("Scene2b");
