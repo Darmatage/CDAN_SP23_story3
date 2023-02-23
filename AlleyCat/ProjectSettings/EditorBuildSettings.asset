@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/EndLose1Rat.unity
     guid: 56231c79b50aba245977d560aa315382
+  - enabled: 1
+    path: Assets/Scenes/EndWin.unity
+    guid: cda190b15961a0e4a86cd30323d54b67
   m_configObjects: {}
