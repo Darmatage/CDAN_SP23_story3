@@ -102,5 +102,49 @@ public void next(){
 				Choice1b.SetActive(true);
 				Choice1c.SetActive(true);
 		}		
-			   }
+			   
+}
+
+//Button Functions
+        public void Choice1aFunct(){
+                Char1name.text = "";
+                Char1speech.text = "";
+                primeInt = 99;
+                Choice1a.SetActive(false);
+                Choice1b.SetActive(false);
+                nextButton.SetActive(true);
+                allowSpace = true;
+        }
+        public void Choice1bFunct(){
+                Char1name.text = "";
+                Char1speech.text = "";
+                primeInt = 199;
+                Choice1a.SetActive(false);
+                Choice1b.SetActive(false);
+                nextButton.SetActive(true);
+                allowSpace = true;
+        }
+		
+        public void Choice1cFunct(){
+                Char1name.text = "";
+                Char1speech.text = "";
+                primeInt = 199;
+                Choice1a.SetActive(false);
+                Choice1b.SetActive(false);
+                nextButton.SetActive(true);
+                allowSpace = true;
+        }
+
+
+//make sure for the scene change below it matches the name of the scene you want to go to, like endloserat or scene5 etc
+
+        public void SceneChange1(){
+               SceneManager.LoadScene("Scene4a");
+        }
+        public void SceneChange2(){
+                SceneManager.LoadScene("Scene4b");
+        }
+        public void SceneChange3(){
+                SceneManager.LoadScene("Scene4c");
+        }
 }

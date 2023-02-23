@@ -381,6 +381,8 @@ public void next(){
 
         public void Choice1aFunct(){
 			  ArtChar2d.SetActive(false);
+			  ArtChar2i.SetActive(false);
+			  ArtChar2g.SetActive(false);
 			  ArtChar2f.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
@@ -389,6 +391,9 @@ public void next(){
                 primeInt = 99;
                 Choice1a.SetActive(false);
                 Choice1b.SetActive(false);
+                Choice2.SetActive(false);
+                Choice3.SetActive(false);
+                Choice4.SetActive(false);
                 nextButton.SetActive(true);
                 allowSpace = true;
         }
