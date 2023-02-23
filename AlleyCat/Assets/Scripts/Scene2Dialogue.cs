@@ -19,6 +19,7 @@ public class Scene2Dialogue : MonoBehaviour {
         public GameObject ArtChar1c;
         public GameObject ArtChar1d;
         public GameObject ArtChar1e;
+		public GameObject ArtChar1f;
         public GameObject ArtChar2a;
         public GameObject ArtChar2b;
         public GameObject ArtChar2c;
@@ -45,6 +46,7 @@ void Start(){
 	  ArtChar1c.SetActive(false);
 	   ArtChar1d.SetActive(false);
 	    ArtChar1e.SetActive(false);
+		   ArtChar1f.SetActive(false);
 		 ArtChar2a.SetActive(false);
 	   ArtChar2b.SetActive(false);
 	   ArtChar2c.SetActive(false);
@@ -78,7 +80,7 @@ public void next(){
                 // AudioSource.Play();
         }
         else if (primeInt == 2){
-               ArtChar1a.SetActive(true);
+               ArtChar1f.SetActive(true);
                 DialogueDisplay.SetActive(true);
                 Char1name.text = "SCRAPPY";
                 Char1speech.text = "(Aw geez. How the hell am I supposed to come up with that much money???)";
@@ -93,6 +95,8 @@ public void next(){
                 //gameHandler.AddPlayerStat(1);
         }
        else if (primeInt == 4){
+		   ArtChar1f.SetActive(false);
+		   ArtChar1e.SetActive(true);
                 Char1name.text = "SCRAPPY";
                 Char1speech.text = "OOF!!!";
                 Char2name.text = "";
@@ -106,6 +110,8 @@ public void next(){
                 //gameHandler.AddPlayerStat(1);
         }
        else if (primeInt == 6){
+		    ArtChar1e.SetActive(false);
+		   ArtChar1a.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "???";
@@ -113,9 +119,11 @@ public void next(){
 				 
         }
 		       else if (primeInt == 7){
+				    ArtChar1a.SetActive(false);
+		   ArtChar1f.SetActive(true);
 			    ArtChar2a.SetActive(true);
                 Char1name.text = "SCRAPPY";
-                Char1speech.text = "A customer...?!";
+                Char1speech.text = "A customer?! Or... a sucker!?!";
                 Char2name.text = "";
                 Char2speech.text = "";
 				nextButton.SetActive(false);
@@ -126,6 +134,7 @@ public void next(){
 			   }
 // ENCOUNTER AFTER CHOICE #1
        else if (primeInt == 100){
+		   
 		   ArtChar2a.SetActive(false);
 		   ArtChar2b.SetActive(true);
                 Char1name.text = "";
@@ -134,6 +143,8 @@ public void next(){
                 Char2speech.text = "Cut the shit. You landed a dirty pillow, pal.";
         }
        else if (primeInt == 101){
+		    ArtChar1e.SetActive(false);
+		   ArtChar1f.SetActive(true);
                 Char1name.text = "SCRAPPY";
                 Char1speech.text = "Ah...er, uhuh uhhhh";
                 Char2name.text = "";
@@ -141,6 +152,8 @@ public void next(){
 
         }
 		       else if (primeInt == 102){
+				    ArtChar1f.SetActive(false);
+		   ArtChar1d.SetActive(true);
 				   ArtChar2a.SetActive(true);
 		        ArtChar2b.SetActive(false);
                 Char1name.text = "SCRAPPY";
@@ -150,6 +163,8 @@ public void next(){
 
         }
        else if (primeInt == 103){
+		    ArtChar1d.SetActive(false);
+		   ArtChar1c.SetActive(true);
                 Char1name.text = "SCRAPPY";
                 Char1speech.text = "How may I help you on this divine evening?!?";
                 Char2name.text = "";
@@ -174,6 +189,8 @@ public void next(){
 
         }
        else if (primeInt == 106){
+		    ArtChar1c.SetActive(false);
+		   ArtChar1f.SetActive(true);
                 Char1name.text = "SCRAPPY";
                 Char1speech.text = "GARBAGE? Listen buddy- I mean. Kind sir, I'm offended!!";
                 Char2name.text = "";
@@ -181,6 +198,8 @@ public void next(){
 
         }
        else if (primeInt == 107){
+		    ArtChar1f.SetActive(false);
+		   ArtChar1b.SetActive(true);
                 Char1name.text = "SCRAPPY";
                 Char1speech.text = "These are the highest quality luxury items and gourmet foods!";
                 Char2name.text = "";
@@ -188,6 +207,8 @@ public void next(){
 
         }
        else if (primeInt == 108){
+		    ArtChar1b.SetActive(false);
+		   ArtChar1c.SetActive(true);
                 Char1name.text = "SCRAPPY";
                 Char1speech.text = "F-for instance- you seem to be a rat with the most distinguished taste! So...";
                 Char2name.text = "";
@@ -209,6 +230,8 @@ public void next(){
 
         }
 		       else if (primeInt == 111){
+				    ArtChar1c.SetActive(false);
+		   ArtChar1a.SetActive(true);
                 Char1name.text = "SCRAPPY";
                 Char1speech.text = "Nuh-uh.";
                 Char2name.text = "";
@@ -225,6 +248,8 @@ public void next(){
 
         }
 		       else if (primeInt == 113){
+				    ArtChar1a.SetActive(false);
+		   ArtChar1b.SetActive(true);
                 Char1name.text = "SCRAPPY";
                 Char1speech.text = "This sounds like a typical French cheese to me, doesn't it?";
                 Char2name.text = "";
@@ -244,8 +269,10 @@ public void next(){
 
         }
 		       else if (primeInt == 115){
+				    ArtChar1b.SetActive(false);
+		   ArtChar1a.SetActive(true);
                 Char1name.text = "SCRAPPY";
-                Char1speech.text = "Ohhh what. You a cheese connoisseur? \n You want my damn cheese or what.";
+                Char1speech.text = "Ohhh what. You a cheese connoisseur? \n You want my cheese or what.";
                 Char2name.text = "";
                 Char2speech.text = "";
 
@@ -260,6 +287,8 @@ public void next(){
 
         }
 		       else if (primeInt == 117){
+				    ArtChar1a.SetActive(false);
+		   ArtChar1b.SetActive(true);
                 Char1name.text = "SCRAPPY";
                 Char1speech.text = "Of course not! You shouldn't get so riled up little guy-";
                 Char2name.text = "";
@@ -540,9 +569,10 @@ public void next(){
 	}
 // FUNCTIONS FOR BUTTONS TO ACCESS (Choice #1 and switch-scenes)
         public void Choice1aFunct(){
-			
+			 ArtChar1f.SetActive(false);
+		   ArtChar1e.SetActive(true);
                 Char1name.text = "SCRAPPY";
-                Char1speech.text = "OW OW OWWW!!! MY PAW-I THINK IT:S B-BROKEN?!! YOU'LL PAY MY BILL YOU-";
+                Char1speech.text = "OWWW!!! MY PAW-I THINK IT:S B-BROKEN?!! YOU'LL PAY MY BILL-";
                 Char2name.text = "";
                 Char2speech.text = "";
                 primeInt = 99;
@@ -552,6 +582,8 @@ public void next(){
                 allowSpace = true;
         }
         public void Choice1bFunct(){
+			 ArtChar1f.SetActive(false);
+		   ArtChar1d.SetActive(true);
                 Char1name.text = "SCRAPPY";
                 Char1speech.text = "S-sorry 'bout that... uhm.";
                 Char2name.text = "";
@@ -563,6 +595,7 @@ public void next(){
                 allowSpace = true;
         }
         public void Choice2aFunct(){
+			
                 Char1name.text = "SCRAPPY";
                 Char1speech.text = "Ah... a kind offer, but I'm kinda desperate for money right now sir.";
                 Char2name.text = "";
