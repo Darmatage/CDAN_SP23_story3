@@ -72,7 +72,7 @@ public void next(){
 		   ArtChar1a.SetActive(false);
 		   ArtChar1b.SetActive(true);
                 Char1name.text = "SCRAPPY";
-                Char1speech.text = "Let’s see… I couuuld go to the pub… might be a lotta folks ‘round there…";
+                Char1speech.text = "Let’s see… I could go to the pub… might be a lotta folks ‘round there…";
                 //gameHandler.AddPlayerStat(1);
         }
        else if (primeInt == 4){
@@ -85,7 +85,7 @@ public void next(){
 		   ArtChar1c.SetActive(false);
 		   ArtChar1d.SetActive(true);
                 Char1name.text = "SCRAPPY";
-                Char1speech.text = "Then again… maybe I can find me a rat that can actually pay me if I hang around the dumpsters… might find more, ahem, goods. Over there.";
+                Char1speech.text = "Then again… maybe I can find a rat that can actually pay me by the dumpsters… might find more, ahem, goods.";
                 //gameHandler.AddPlayerStat(1);
         }
        else if (primeInt == 6){
