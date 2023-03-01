@@ -320,6 +320,22 @@ public void next(){
 			ArtChar2b.SetActive(false);
 		   ArtChar3a.SetActive(false);
 		   ArtChar4a.SetActive(false);
+                Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "";
+                Char2speech.text = "*step* *step* *step* *step*";
+                Char3name.text = "";
+                Char3speech.text = "";				
+                Char4name.text = "";
+                Char4speech.text = "";	
+	}
+	       else if (primeInt ==22){
+			   ArtChar1c.SetActive(false);
+			 ArtChar1a.SetActive(true);
+			ArtChar2a.SetActive(false);
+			ArtChar2b.SetActive(false);
+		   ArtChar3a.SetActive(false);
+		   ArtChar4a.SetActive(false);
                 Char1name.text = "SCRAPPY";
                 Char1speech.text = "Okay. I got til tonight… I got til tonight…";
                 Char2name.text = "";
@@ -330,7 +346,7 @@ public void next(){
                 Char4speech.text = "";	
 	}
 
-	       else if (primeInt ==22){
+	       else if (primeInt ==23){
 			   ArtChar1a.SetActive(false);
 			 ArtChar1f.SetActive(true);
                 Char1name.text = "SCRAPPY";

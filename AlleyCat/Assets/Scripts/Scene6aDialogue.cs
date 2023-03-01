@@ -78,17 +78,16 @@ public void next(){
                 // AudioSource.Play();
         }
         else if (primeInt == 2){
-
+               ArtChar1a.SetActive(true);
+                DialogueDisplay.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
                 Char2speech.text = "";
         }
        else if (primeInt ==3){
-		                  ArtChar1a.SetActive(true);
-                DialogueDisplay.SetActive(true);
-                Char1name.text = "SCRAPPY";
-                Char1speech.text = "The sight a water usually sends a shiver down my spine, but the smell is so calmi-";
+                Char1name.text = "";
+                Char1speech.text = "";
                 Char2name.text = "";
                 Char2speech.text = "";
              
@@ -202,9 +201,9 @@ public void next(){
 //make sure for the scene change below it matches the name of the scene you want to go to, like endloserat or scene5 etc
 
         public void SceneChange1(){
-               SceneManager.LoadScene("Scene2");
+               SceneManager.LoadScene("EndWinSurvive");
         }
         public void SceneChange2(){
-                SceneManager.LoadScene("Scene2");
+                SceneManager.LoadScene("EndLoseDock");
         }
 }
