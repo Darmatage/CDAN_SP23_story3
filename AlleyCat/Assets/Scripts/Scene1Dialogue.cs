@@ -40,7 +40,7 @@ public class Scene1Dialogue : MonoBehaviour {
         //public GameObject NextScene2Button;
         public GameObject nextButton;
        public GameHandler gameHandler;
-       public AudioSource SFX_catYelp;
+       public AudioSource SFX_footsteps;
         private bool allowSpace = true;
 
 // initial visibility settings. Any new images or buttons need to also be SetActive(false);
@@ -364,7 +364,7 @@ public void next(){
 
 // ENCOUNTER AFTER CHOICE #1
        else if (primeInt == 100){
-		   SFX_catYelp.Stop();
+		 //  SFX_catYelp.Stop();
 		   ArtChar4a.SetActive(false);
 			 ArtChar4b.SetActive(true);
                 Char1name.text = "";
@@ -447,7 +447,7 @@ public void next(){
         public void Choice1aFunct(){
 			ArtChar1d.SetActive(true);
 		    ArtChar1f.SetActive(false);
-			SFX_catYelp.Play();
+
                 Char1name.text = "SCRAPPY";
                 Char1speech.text = "Hey now, fellas! L-look. I know I'm late-gimme a bit more time! \n I promise I can pay it all back!";
                 Char2name.text = "";

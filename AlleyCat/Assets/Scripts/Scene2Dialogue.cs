@@ -36,6 +36,7 @@ public class Scene2Dialogue : MonoBehaviour {
         public GameObject nextButton;
        //public GameHandler gameHandler;
        //public AudioSource audioSource;
+	 
         private bool allowSpace = true;
 
 // initial visibility settings. Any new images or buttons need to also be SetActive(false);
@@ -514,9 +515,10 @@ public void next(){
 				      ArtChar1b.SetActive(false);
 		     ArtChar1a.SetActive(true);
 				   ArtChar2a.SetActive(false);
+				 //   AudioSource.Play(footsteps);
                 Char1name.text = "";
-                Char1speech.text = "The rat turned and continued down the alley.";
-                Char2name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "*step* *step* *step* *step*";
                 Char2speech.text = "";
                
         }
