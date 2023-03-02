@@ -296,7 +296,7 @@ public void next(){
         }
 						else if (primeInt == 303){
                 Char1name.text = "SCRAPPY";
-                Char1speech.text = "Glistening legs. So why not give yerself a second chance at fatherhood? For the kids' sakes.";
+                Char1speech.text = "Lovely legs. Why not give yerself a second chance at fatherhood? For the kids' sakes.";
                 Char2name.text = "";
                 Char2speech.text = "";
         }
@@ -326,11 +326,18 @@ public void next(){
         }
 								else if (primeInt == 308){
                 Char1name.text = "SCRAPPY";
-                Char1speech.text = "PLEASURE DOING BUSINESS!!! Mwehehe... I'll take a walk on the beach as a reward.";
+                Char1speech.text = "PLEASURE DOING BUSINESS!!!";
                 Char2name.text = "";
                 Char2speech.text = "";
         }
 								else if (primeInt == 309){
+                Char1name.text = "SCRAPPY";
+                Char1speech.text = "Mwehehe... I'll take a walk on the beach as a reward.";
+                Char2name.text = "";
+                Char2speech.text = "";
+
+        }
+										else if (primeInt == 310){
                 Char1name.text = "SCRAPPY";
                 Char1speech.text = "Now how much did I make tonight...?";
                 Char2name.text = "";

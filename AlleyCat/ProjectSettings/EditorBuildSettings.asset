@@ -44,4 +44,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/EndLoseWeed.unity
     guid: 61a67e2c5fc27f44aa22fe205c47e252
+  - enabled: 1
+    path: Assets/Scenes/Scene6a.unity
+    guid: 0ac45d04caeddea46a508010db6c9a4b
+  - enabled: 1
+    path: Assets/Scenes/Scene6b.unity
+    guid: 5bc9183edef4421428ae2754b06facda
   m_configObjects: {}
