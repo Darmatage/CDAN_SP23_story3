@@ -93,16 +93,16 @@ public void next(){
 		   ArtChar1e.SetActive(true);
                 Char1name.text = "SCRAPPY";
                 Char1speech.text = "HMMMMMM I think…";				 
-        }
-		       else if (primeInt == 7){
-
 				nextButton.SetActive(false);
                 allowSpace = false;
-                Choice1a.SetActive(true);
-				Choice1b.SetActive(true);
-				Choice1c.SetActive(true);
+                nextButton.SetActive(false);
+                allowSpace = false;
+                NextScene1Button.SetActive(true);
+				 NextScene2Button.SetActive(true);
+				  NextScene3Button.SetActive(true);
+        
 		}		
-			   
+
 }
 
 //Button Functions
