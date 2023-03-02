@@ -91,6 +91,8 @@ public void next(){
                 Char2speech.text = "";
         }
        else if (primeInt ==3){
+		   	ArtChar1a.SetActive(false);
+		     ArtChar1b.SetActive(true);
                 Char1name.text = "SCRAPPY";
                 Char1speech.text = "...*sniff*... Where's that scrumptious stank comin' from?";
                 Char2name.text = "";
@@ -98,13 +100,16 @@ public void next(){
              
         }
        else if (primeInt == 4){
-		    ArtChar2a.SetActive(true);
+		   ArtChat2b.SetActive(true);
+		  
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "MERMAID";
                 Char2speech.text = "GOOD DAY SIR! Hate to be a bother but you seem to be blocking the dock with your cart!";
         }
        else if (primeInt == 5){
+		   		   	ArtChar1a.SetActive(false);
+		     ArtChar1b.SetActive(true);
                 Char1name.text = "SCRAPPY";
                 Char1speech.text = "OH WOW A FISH!?!? Great timing I'm STARV-";
                 Char2name.text = "";
