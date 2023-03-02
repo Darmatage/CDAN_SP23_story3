@@ -100,7 +100,7 @@ public void next(){
              
         }
        else if (primeInt == 4){
-		   ArtChat2b.SetActive(true);
+		   ArtChar2b.SetActive(true);
 		  
                 Char1name.text = "";
                 Char1speech.text = "";
@@ -108,8 +108,10 @@ public void next(){
                 Char2speech.text = "GOOD DAY SIR! Hate to be a bother but you seem to be blocking the dock with your cart!";
         }
        else if (primeInt == 5){
-		   		   	ArtChar1a.SetActive(false);
+		   	ArtChar1a.SetActive(false);
 		     ArtChar1b.SetActive(true);
+			ArtChar2b.SetActive(false);
+		     ArtChar2a.SetActive(true);
                 Char1name.text = "SCRAPPY";
                 Char1speech.text = "OH WOW A FISH!?!? Great timing I'm STARV-";
                 Char2name.text = "";
@@ -117,12 +119,16 @@ public void next(){
               
         }
        else if (primeInt == 6){
+		   ArtChar1a.SetActive(true);
+		     ArtChar1b.SetActive(false);
+
                 Char1name.text = "SCRAPPY";
                 Char1speech.text = "...";
                 Char2name.text = "";
                 Char2speech.text = "";
         }
        else if (primeInt ==7){
+		   
 		    DialogueDisplay.SetActive(false);
                 Char1name.text = "";
                 Char1speech.text = "";
@@ -131,6 +137,9 @@ public void next(){
         }
        else if (primeInt == 8){
 		    DialogueDisplay.SetActive(true);
+			ArtChar1a.SetActive(false);
+		     ArtChar1d.SetActive(true);
+
                 Char1name.text = "SCRAPPY";
                 Char1speech.text = "(What am I looking at here.)";
                 Char2name.text = "";
@@ -143,67 +152,116 @@ public void next(){
                 Choice1b.SetActive(true); // function Choice1bFunct()
         }
 		       else if (primeInt ==15){
+			ArtChar1a.SetActive(false);
+				ArtChar1b.SetActive(false);
+					ArtChar1d.SetActive(false);
+						ArtChar1e.SetActive(false);
+						
+		     ArtChar1c.SetActive(true);
+			ArtChar2b.SetActive(false);
+		     ArtChar2a.SetActive(true);
                 Char1name.text = "SCRAPPY";
                 Char1speech.text = "I see... well. Must get lonely huh, dear customer of mine?";
                 Char2name.text = "";
                 Char2speech.text = "";
         }
 				       else if (primeInt ==16){
+						   ArtChar1c.SetActive(false);
+		     ArtChar1b.SetActive(true);
+			ArtChar2a.SetActive(false);
+		     ArtChar2b.SetActive(true);
                 Char1name.text = "SCRAPPY";
                 Char1speech.text = "What if I showed you a... TIN OF SARDINES?!?! Fish to keep company!";
                 Char2name.text = "";
                 Char2speech.text = "";
         }
 				       else if (primeInt ==17){
+						   ArtChar1a.SetActive(false);
+		     ArtChar1b.SetActive(true);
+			ArtChar2b.SetActive(false);
+		     ArtChar2c.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "MERMAID";
                 Char2speech.text = "OHO! I AM painfully lonely! Let's see... AHHH!!!";
         }
 				       else if (primeInt ==18){
+			ArtChar1a.SetActive(true);
+		     ArtChar1b.SetActive(false);
+			ArtChar2c.SetActive(false);
+		     ArtChar2d.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "MERMAID";
                 Char2speech.text = "GOOD GOD MAN... THESE ARE...!!!";
         }
 				       else if (primeInt ==19){
+						   ArtChar1a.SetActive(true);
+		     ArtChar1b.SetActive(false);
+			ArtChar2d.SetActive(false);
+		     ArtChar2e.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "MERMAID";
                 Char2speech.text = "MY CHILDREN!!!!!!";
-        }		       else if (primeInt ==20){
+        }		       
+				else if (primeInt ==20){
+					ArtChar1a.SetActive(false);
+		     ArtChar1d.SetActive(true);
+	
                 Char1name.text = "SCRAPPY";
                 Char1speech.text = "...Huh. How do you... know that?";
                 Char2name.text = "";
                 Char2speech.text = "";
         }
 				       else if (primeInt ==21){
+						   ArtChar1a.SetActive(false);
+		     ArtChar1d.SetActive(true);
+			ArtChar2e.SetActive(false);
+		     ArtChar2c.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "MERMAID";
                 Char2speech.text = "ARE YOU BLIND!?!? Look at their little legs...!!!";
         }
-						       else if (primeInt ==22){
-								                   DialogueDisplay.SetActive(false);
+			 else if (primeInt ==22){
+		
+				 ArtChar1a.SetActive(true);
+		     ArtChar1d.SetActive(false);
+			ArtChar2e.SetActive(false);
+		     ArtChar2c.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
                 Char2speech.text = "";
         }
 						       else if (primeInt ==23){
-								                   DialogueDisplay.SetActive(true);
+		
+			
+				  ArtChar1a.SetActive(false);
+		     ArtChar1d.SetActive(true);
+			ArtChar2e.SetActive(false);
+		     ArtChar2c.SetActive(true);
                 Char1name.text = "SCRAPPY";
                 Char1speech.text = "...Oh. Well. So you want to buy them?";
                 Char2name.text = "";
                 Char2speech.text = "";
         }
 						       else if (primeInt ==24){
+			ArtChar1a.SetActive(false);
+		     ArtChar1d.SetActive(true);
+			ArtChar2c.SetActive(false);
+		     ArtChar2d.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "MERMAID";
                 Char2speech.text = "Well I didn't say that.";
         }
 						       else if (primeInt ==25){
+								    ArtChar1a.SetActive(true);
+		     ArtChar1d.SetActive(false);
+			ArtChar2c.SetActive(false);
+		     ArtChar2d.SetActive(true);
                 Char1name.text = "SCRAPPY";
                 Char1speech.text = "Huh? But they're yours. Are you a...";
                 Char2name.text = "";
@@ -217,30 +275,48 @@ public void next(){
 				
 // ENCOUNTER AFTER CHOICE #1
        else if (primeInt == 100){
+		   			ArtChar1b.SetActive(false);
+		     ArtChar1d.SetActive(true);
+			  ArtChar2a.SetActive(true);
                 Char1name.text = "SCRAPPY";
-                Char1speech.text = "It's just... a giant talking fish mind boggling.";
+                Char1speech.text = "It's just... a giant talking fish is mind boggling.";
                 Char2name.text = "";
                 Char2speech.text = "";
         }
        else if (primeInt == 101){
+		   		   			ArtChar1a.SetActive(true);
+		     ArtChar1d.SetActive(false);
+			  ArtChar2a.SetActive(false);
+			    ArtChar2b.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "MERMAID";
                 Char2speech.text = "Ahahah I can understand! Seeing someone so beautiful can be shocking.";
 	   }		
         else if (primeInt == 102){
+					   		   			
+			  ArtChar2a.SetActive(false);
+			    ArtChar2b.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "MERMAID";
                 Char2speech.text = "If you keep a good skincare routine you too could look as extravagant as me!";
 		}
        else if (primeInt == 103){
+		   		   		   			ArtChar1a.SetActive(false);
+		     ArtChar1b.SetActive(true);
+			  ArtChar2a.SetActive(true);
+			    ArtChar2b.SetActive(false);
                 Char1name.text = "SCRAPPY";
                 Char1speech.text = "What's your routine?";
                 Char2name.text = "";
                 Char2speech.text = "";
         }
        else if (primeInt == 104){
+		   ArtChar1a.SetActive(false);
+		     ArtChar1b.SetActive(true);
+			  ArtChar2a.SetActive(false);
+			    ArtChar2b.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "MERMAID";
@@ -250,6 +326,10 @@ public void next(){
 
 
        else if (primeInt == 200){
+		   ArtChar1a.SetActive(true);
+		     ArtChar1c.SetActive(false);
+			  ArtChar2a.SetActive(true);
+			    ArtChar2b.SetActive(false);
                 Char1name.text = "SCRAPPY";
                 Char1speech.text = "That's the only possible explanation for those legs.";
                 Char2name.text = "";
@@ -257,18 +337,29 @@ public void next(){
         }
 		//only the last dialogue
        else if (primeInt == 201){
+		
+			  ArtChar2a.SetActive(false);
+			    ArtChar2c.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "MERMAID";
                 Char2speech.text = "COSTUME!?!? SIR! I work hard to get them this smooth!";
         }
 		       else if (primeInt == 202){
+				   ArtChar1a.SetActive(true);
+		     ArtChar1b.SetActive(false);
+			  ArtChar2a.SetActive(false);
+			    ArtChar2c.SetActive(true);
                 Char1name.text = "SCRAPPY";
                 Char1speech.text = "How'd ya uh... get them in the first place.";
                 Char2name.text = "";
                 Char2speech.text = "";
         }
 				       else if (primeInt == 203){
+				 ArtChar1a.SetActive(true);
+		     ArtChar1b.SetActive(false);
+			  ArtChar2c.SetActive(false);
+			    ArtChar2b.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "MERMAID";
@@ -282,60 +373,93 @@ public void next(){
 				primeInt = 14;
         }
 				else if (primeInt == 300){
+					 ArtChar1a.SetActive(true);
+		     ArtChar1e.SetActive(false);
+			  ArtChar2a.SetActive(false);
+			    ArtChar2d.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "MERMAID";
                 Char2speech.text = "W-W-Wh..! I-I'm not fit to care for them...! I...";
         }
 						else if (primeInt == 301){
+							 ArtChar1a.SetActive(true);
+		     ArtChar1b.SetActive(false);
+			  ArtChar2d.SetActive(false);
+			    ArtChar2e.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "MERMAID";
-                Char2speech.text = "I sold them to a disherman after gambling all my money at a Clamsino...";
+                Char2speech.text = "I sold them to a fisherman after gambling all my money at a Clamsino...";
         }
 						else if (primeInt == 302){
+							ArtChar1a.SetActive(false);
+		     ArtChar1c.SetActive(true);
+			  ArtChar2d.SetActive(false);
+			    ArtChar2e.SetActive(true);
                 Char1name.text = "SCRAPPY";
-                Char1speech.text = "Wow... What a guy. But I know how ya feel, mister. And you seem to be better off considering your...";
+                Char1speech.text = "Wow. What a guy. But I know how ya feel, mister. And you seem to be better off considering your uh. Lovely legs.";
                 Char2name.text = "";
                 Char2speech.text = "";
         }
 						else if (primeInt == 303){
+							ArtChar1b.SetActive(true);
+		     ArtChar1c.SetActive(false);
+			  ArtChar2d.SetActive(true);
+			    ArtChar2e.SetActive(false);
                 Char1name.text = "SCRAPPY";
-                Char1speech.text = "Lovely legs. Why not give yerself a second chance at fatherhood? For the kids' sakes.";
+                Char1speech.text = "Why not give yerself a second chance at fatherhood? For the kids' sakes.";
                 Char2name.text = "";
                 Char2speech.text = "";
         }
 						else if (primeInt == 304){
+					ArtChar1b.SetActive(false);	
+		     ArtChar1a.SetActive(true);
+			  ArtChar2d.SetActive(false);
+			    ArtChar2c.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "MERMAID";
                 Char2speech.text = "Glbblblgblg... *SNIFFLEEE* Y-you're right...!!! It's what's right.";
         }
 						else if (primeInt == 305){
+				
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "MERMAID";
                 Char2speech.text = "Thank you for showing me the right path... I'll take th-";
         }
 						else if (primeInt == 306){
+							ArtChar1a.SetActive(false);	
+		     ArtChar1c.SetActive(true);
+			  ArtChar2e.SetActive(true);
+			    ArtChar2c.SetActive(false);
                 Char1name.text = "SCRAPPY";
                 Char1speech.text = "Woah woah woah- this is a store, not an adoption agency. Cash only!!!";
                 Char2name.text = "";
                 Char2speech.text = "";
         }
 						else if (primeInt == 307){
+		
+			  ArtChar2e.SetActive(false);
+			    ArtChar2c.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "MERMAID";
-                Char2speech.text = "Grrrr... Fine. Take my money.";
+                Char2speech.text = "Ughhhh... Fine. Take my money.";
         }
 								else if (primeInt == 308){
+									ArtChar1c.SetActive(false);	
+		     ArtChar1b.SetActive(true);
+			  ArtChar2d.SetActive(false);
+			    ArtChar2c.SetActive(true);
                 Char1name.text = "SCRAPPY";
                 Char1speech.text = "PLEASURE DOING BUSINESS!!!";
                 Char2name.text = "";
                 Char2speech.text = "";
         }
 								else if (primeInt == 309){
+									 ArtChar2c.SetActive(false);
                 Char1name.text = "SCRAPPY";
                 Char1speech.text = "Mwehehe... I'll take a walk on the beach as a reward.";
                 Char2name.text = "";
@@ -343,6 +467,8 @@ public void next(){
 
         }
 										else if (primeInt == 310){
+				ArtChar1a.SetActive(true);	
+		     ArtChar1b.SetActive(false);							
                 Char1name.text = "SCRAPPY";
                 Char1speech.text = "Now how much did I make tonight...?";
                 Char2name.text = "";
@@ -356,54 +482,73 @@ public void next(){
        
 		
 						       else if (primeInt == 400){
+			ArtChar1a.SetActive(true);	
+		     ArtChar1e.SetActive(false);
+			  ArtChar2d.SetActive(false);
+			    ArtChar2c.SetActive(true);					   
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "MERMAID";
                 Char2speech.text = "WELL I never...!!!!";
         }
 								       else if (primeInt == 401){
+										    ArtChar2d.SetActive(true);
+			    ArtChar2c.SetActive(false);	
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "MERMAID";
                 Char2speech.text = "You don't know what I've been through..!";
         }
 								       else if (primeInt == 402){
+										    ArtChar2d.SetActive(false);
+			    ArtChar2e.SetActive(true);	
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "MERMAID";
                 Char2speech.text = "How much radiated water I've had to swim through to get to this point!";
         }
 								       else if (primeInt == 403){
+				ArtChar2e.SetActive(false);
+			    ArtChar2c.SetActive(true);							   
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "MERMAID";
                 Char2speech.text = "SCREW YOU JERK!!!";
         }
 								       else if (primeInt == 404){
+					 ArtChar2c.SetActive(true);					   
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
                 Char2speech.text = "*splash*";
         }
 								       else if (primeInt == 405){
+			 ArtChar1a.SetActive(false);	
+		     ArtChar1d.SetActive(true);
                 Char1name.text = "SCRAPPY";
                 Char1speech.text = "Into the sea he goes... well crap.";
                 Char2name.text = "";
                 Char2speech.text = "";
         }
 								       else if (primeInt == 406){
+				 ArtChar1d.SetActive(false);	
+		     ArtChar1c.SetActive(true);						   
                 Char1name.text = "SCRAPPY";
                 Char1speech.text = "Well... these sardines sure do look good... and he ain't comin' back...";
                 Char2name.text = "";
                 Char2speech.text = "";
         }
 								       else if (primeInt == 407){
+				 ArtChar1c.SetActive(false);	
+		     ArtChar1b.SetActive(true);						   
                 Char1name.text = "";
                 Char1speech.text = "*nom nom nom nom*";
                 Char2name.text = "";
                 Char2speech.text = "";
         }
 										       else if (primeInt == 408){
+				 ArtChar1b.SetActive(false);	
+		     ArtChar1a.SetActive(true);								   
                 Char1name.text = "SCRAPPY";
                 Char1speech.text = "Ahh.. much better. Now... how much did I make tonight...?";
                 Char2name.text = "";
@@ -426,6 +571,8 @@ public void next(){
 //the numbers will probably get pretty big depending on how many choices you have so dont stress if they do
 
         public void Choice1aFunct(){
+				 ArtChar1d.SetActive(false);	
+		     ArtChar1b.SetActive(true);
                 Char1name.text = "SCRAPPY";
                 Char1speech.text = "Sorry but er uh... how are you. Alive?";
                 Char2name.text = "";
@@ -437,8 +584,10 @@ public void next(){
                 allowSpace = true;
         }
         public void Choice1bFunct(){
+				 ArtChar1d.SetActive(false);	
+		     ArtChar1c.SetActive(true);
                 Char1name.text = "SCRAPPY";
-                Char1speech.text = "Those legs... Are you wearing a fish costume, guy?";
+                Char1speech.text = "Are you wearing a fish costume, guy?";
                 Char2name.text = "";
                 Char2speech.text = "";
                 primeInt = 199;
@@ -448,6 +597,11 @@ public void next(){
                 allowSpace = true;
         }
 		        public void Choice2aFunct(){
+ArtChar1a.SetActive(false);
+						ArtChar1b.SetActive(false);
+						ArtChar1c.SetActive(false);
+						ArtChar1d.SetActive(false);						 
+		     ArtChar1e.SetActive(true);
                 Char1name.text = "SCRAPPY";
                 Char1speech.text = "A neglectful parent who left these poor babies to die?! How shameful.";
                 Char2name.text = "";
@@ -459,6 +613,11 @@ public void next(){
                 allowSpace = true;
         }
 		        public void Choice2bFunct(){
+						ArtChar1a.SetActive(false);
+						ArtChar1b.SetActive(false);
+						ArtChar1c.SetActive(false);
+						ArtChar1d.SetActive(false);	
+		     ArtChar1e.SetActive(true);
                 Char1name.text = "SCRAPPY";
                 Char1speech.text = "A deadbeat, scumbag, good-for-nothing dad?!?!";
                 Char2name.text = "";

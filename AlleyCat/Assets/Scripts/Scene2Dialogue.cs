@@ -548,7 +548,11 @@ public void next(){
                 nextButton.SetActive(false);
                 allowSpace = false;
                 NextScene2Button.SetActive(true);
+				
+				Debug.Log("is the rat on your side? " + GameHandler.ratAlly);
         }
+		
+		
 		       else if (primeInt == 400){
 				      ArtChar1c.SetActive(false);
 		     ArtChar1e.SetActive(true);
@@ -603,6 +607,8 @@ public void next(){
                 nextButton.SetActive(false);
                 allowSpace = false;
                 NextScene2Button.SetActive(true);
+				
+				Debug.Log("is the rat on your side? " + GameHandler.ratAlly);
         }
 	}
 // FUNCTIONS FOR BUTTONS TO ACCESS (Choice #1 and switch-scenes)
@@ -648,7 +654,7 @@ public void next(){
 		public void Choice2bFunct(){
 		   ArtChar1f.SetActive(false);
 		     ArtChar1c.SetActive(true);
-		     
+		     GameHandler.ratAlly = true; 
                 Char1name.text = "SCRAPPY";
                 Char1speech.text = "Well! I'll take you up on that offer. \n God knows I need all the help I can get.";
                 Char2name.text = "";

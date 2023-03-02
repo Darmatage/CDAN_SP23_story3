@@ -7,7 +7,7 @@ using UnityEngine.Audio;
 
 public class GameHandler : MonoBehaviour {
 
-        public static int playerStat;
+        public static bool ratAlly = false;
 
 
         public static bool GameisPaused = false;
@@ -58,14 +58,14 @@ public class GameHandler : MonoBehaviour {
                 volumeLevel = sliderValue;
         }
 
-        public void UpdatePlayerStat(int amount){
-                playerStat += amount;
-                Debug.Log("Current Player Stat = " + playerStat);
-        }
+        // public void UpdatePlayerStat(int amount){
+                // playerStat += amount;
+                // Debug.Log("Current Player Stat = " + playerStat);
+        // }
 
-        public int CheckPlayerStat(){
-                return playerStat;
-        }
+        // public int CheckPlayerStat(){
+                // return playerStat;
+        // }
 
         public void StartGame(){
                 SceneManager.LoadScene("Scene1");
