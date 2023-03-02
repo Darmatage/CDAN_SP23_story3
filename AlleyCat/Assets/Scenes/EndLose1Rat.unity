@@ -353,6 +353,11 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 4055406880255144789, guid: 00ca20c22745dd544b625cecbdcbe992, type: 3}
   m_PrefabInstance: {fileID: 486235969}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &486235971 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4055406880255144790, guid: 00ca20c22745dd544b625cecbdcbe992, type: 3}
+  m_PrefabInstance: {fileID: 486235969}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &658814874
 GameObject:
   m_ObjectHideFlags: 0
@@ -1205,6 +1210,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7289710830433064512, guid: aae464b21822f814ab1c8bf8342a267d, type: 3}
+      propertyPath: pauseMenuUI
+      value: 
+      objectReference: {fileID: 486235971}
     - target: {fileID: 7289710830433064513, guid: aae464b21822f814ab1c8bf8342a267d, type: 3}
       propertyPath: m_RootOrder
       value: 3
