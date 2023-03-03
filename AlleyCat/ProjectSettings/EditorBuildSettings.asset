@@ -50,4 +50,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Scene6b.unity
     guid: 5bc9183edef4421428ae2754b06facda
+  - enabled: 1
+    path: Assets/Scenes/Scene7.unity
+    guid: 1000d9f4f423c0644a552fe16c237937
+  - enabled: 1
+    path: Assets/Scenes/EndLoseDock.unity
+    guid: eecbaf417676989418049068c09bfc02
   m_configObjects: {}
