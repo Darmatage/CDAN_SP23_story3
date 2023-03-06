@@ -176,7 +176,7 @@ public void next(){
 			   ArtChar3a.SetActive(true);
 			   ArtChar4a.SetActive(true);
                 Char1name.text = "SCRAPPY";
-                Char1speech.text = "H-Huh!?! Y-You...! Where are you here, I thought-";
+                Char1speech.text = "H-Huh!?! Y-You...! Why are you here, I thought-";
                 Char2name.text = "";
                 Char2speech.text = "";
 				Char3name.text = "";
@@ -256,7 +256,7 @@ public void next(){
 				Char3name.text = "";
                 Char3speech.text = "";
                 Char4name.text = "Grunt 1";
-                Char4speech.text = "Cut the shit. We're done waiting. Please don't squirm while we finish ya off, Scraps. \n Keep some of yet dignity intact.";
+                Char4speech.text = "Cut the shit. We're done waiting. Please don't squirm while we finish ya off,\n Keep the dignity intact.";
        Char5name.text = "";
                 Char5speech.text = "";
 	   }
@@ -359,12 +359,13 @@ public void next(){
 		else if (primeInt == 101){
 		    ArtChar1a.SetActive(true);
 		   ArtChar1b.SetActive(false);
-			   ArtChar2c.SetActive(true);
+		   ArtChar2a.SetActive(false);
+			   ArtChar2c.SetActive(false);
 			    ArtChar2b.SetActive(false);
 			   ArtChar3b.SetActive(false);
-			    ArtChar3a.SetActive(true);
+			    ArtChar3a.SetActive(false);
 			   ArtChar4b.SetActive(false);
-			   ArtChar4a.SetActive(true);
+			   ArtChar4a.SetActive(false);
 			   ArtChar5a.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
@@ -378,14 +379,14 @@ public void next(){
                 Char5speech.text = "Down here dumbass.";
         }
 		else if (primeInt == 102){
-		  ArtChar1a.SetActive(true);
-		   ArtChar1c.SetActive(false);
+		  ArtChar1e.SetActive(true);
+		   ArtChar1a.SetActive(false);
 			   ArtChar2c.SetActive(false);
-			    ArtChar2a.SetActive(true);
+			    ArtChar2a.SetActive(false);
 			   ArtChar3b.SetActive(false);
-			    ArtChar3a.SetActive(true);
+			    ArtChar3a.SetActive(false);
 			   ArtChar4b.SetActive(false);
-			   ArtChar4a.SetActive(true);
+			   ArtChar4a.SetActive(false);
 			   ArtChar5a.SetActive(true);
                 Char1name.text = "SCRAPPY";
                 Char1speech.text = "Y-you!!!";
@@ -400,13 +401,13 @@ public void next(){
         }
 		else if (primeInt == 103){
 		  ArtChar1a.SetActive(true);
-		   ArtChar1b.SetActive(false);
+		   ArtChar1e.SetActive(false);
 			   ArtChar2c.SetActive(false);
-			    ArtChar2a.SetActive(true);
+			    ArtChar2a.SetActive(false);
 			   ArtChar3b.SetActive(false);
-			    ArtChar3a.SetActive(true);
+			    ArtChar3a.SetActive(false);
 			   ArtChar4b.SetActive(false);
-			   ArtChar4a.SetActive(true);
+			   ArtChar4a.SetActive(false);
 			   ArtChar5a.SetActive(false);
 			   ArtChar5b.SetActive(true);
                 Char1name.text = "";
@@ -430,7 +431,7 @@ public void next(){
 			   ArtChar4a.SetActive(false);
 			   ArtChar4b.SetActive(true);
 			   ArtChar5b.SetActive(false);
-			   ArtChar5a.SetActive(true);
+			   ArtChar5a.SetActive(false);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
@@ -452,7 +453,7 @@ public void next(){
 			   ArtChar4b.SetActive(false);
 			   ArtChar4a.SetActive(true);
 			   ArtChar5b.SetActive(false);
-			   ArtChar5a.SetActive(true);
+			   ArtChar5a.SetActive(false);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
@@ -474,7 +475,7 @@ public void next(){
 			   ArtChar4b.SetActive(false);
 			   ArtChar4a.SetActive(true);
 			   ArtChar5a.SetActive(false);
-			   ArtChar5b.SetActive(true);
+			   ArtChar5b.SetActive(false);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "BOSS";
@@ -495,7 +496,7 @@ public void next(){
 			    ArtChar3b.SetActive(true);
 			   ArtChar4a.SetActive(false);
 			   ArtChar4b.SetActive(true);
-			   ArtChar5a.SetActive(true);
+			   ArtChar5a.SetActive(false);
 			   ArtChar5b.SetActive(false);
                 Char1name.text = "";
                 Char1speech.text = "";
@@ -512,11 +513,11 @@ public void next(){
 		  ArtChar1a.SetActive(true);
 		   ArtChar1b.SetActive(false);
 			   ArtChar2b.SetActive(false);
-			    ArtChar2a.SetActive(true);
+			    ArtChar2a.SetActive(false);
 			   ArtChar3a.SetActive(false);
-			    ArtChar3b.SetActive(true);
+			    ArtChar3b.SetActive(false);
 			   ArtChar4a.SetActive(false);
-			   ArtChar4b.SetActive(true);
+			   ArtChar4b.SetActive(false);
 			   ArtChar5a.SetActive(false);
 			   ArtChar5c.SetActive(true);
                 Char1name.text = "";
@@ -531,14 +532,14 @@ public void next(){
                 Char5speech.text = "Now my pal here may not be very bright. He's a moron, actually.";
         }
 		else if (primeInt == 109){
-		  ArtChar1e.SetActive(true);
+		  ArtChar1d.SetActive(true);
 		   ArtChar1a.SetActive(false);
 			   ArtChar2a.SetActive(false);
-			    ArtChar2b.SetActive(true);
+			    ArtChar2b.SetActive(false);
 			   ArtChar3b.SetActive(false);
-			    ArtChar3a.SetActive(true);
+			    ArtChar3a.SetActive(false);
 			   ArtChar4b.SetActive(false);
-			   ArtChar4a.SetActive(true);
+			   ArtChar4a.SetActive(false);
 			   ArtChar5c.SetActive(false);
 			   ArtChar5a.SetActive(true);
                 Char1name.text = "SCRAPPY";
@@ -554,13 +555,13 @@ public void next(){
         }
 		else if (primeInt == 110){
 		   ArtChar1a.SetActive(true);
-		   ArtChar1e.SetActive(false);
-			   ArtChar2a.SetActive(true);
+		   ArtChar1d.SetActive(false);
+			   ArtChar2a.SetActive(false);
 			    ArtChar2b.SetActive(false);
 			   ArtChar3b.SetActive(false);
-			    ArtChar3a.SetActive(true);
+			    ArtChar3a.SetActive(false);
 			   ArtChar4b.SetActive(false);
-			   ArtChar4a.SetActive(true);
+			   ArtChar4a.SetActive(false);
 			   ArtChar5a.SetActive(false);
 			   ArtChar5d.SetActive(true);
                 Char1name.text = "";
@@ -577,12 +578,12 @@ public void next(){
 		else if (primeInt == 111){
 		  ArtChar1a.SetActive(true);
 		   ArtChar1e.SetActive(false);
-			   ArtChar2a.SetActive(true);
+			   ArtChar2a.SetActive(false);
 			    ArtChar2b.SetActive(false);
 			   ArtChar3b.SetActive(false);
-			    ArtChar3a.SetActive(true);
+			    ArtChar3a.SetActive(false);
 			   ArtChar4b.SetActive(false);
-			   ArtChar4a.SetActive(true);
+			   ArtChar4a.SetActive(false);
 			   ArtChar5a.SetActive(false);
 			   ArtChar5d.SetActive(true);
                 Char1name.text = "";
@@ -606,7 +607,7 @@ public void next(){
 			   ArtChar4a.SetActive(false);
 			   ArtChar4b.SetActive(true);
 			   ArtChar5a.SetActive(false);
-			   ArtChar5d.SetActive(true);
+			   ArtChar5d.SetActive(false);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
@@ -621,14 +622,14 @@ public void next(){
 		else if (primeInt == 113){
 		  ArtChar1a.SetActive(true);
 		   ArtChar1e.SetActive(false);
-			   ArtChar2a.SetActive(true);
+			   ArtChar2a.SetActive(false);
 			    ArtChar2b.SetActive(false);
 			   ArtChar3b.SetActive(false);
-			    ArtChar3a.SetActive(true);
+			    ArtChar3a.SetActive(false);
 			   ArtChar4b.SetActive(false);
-			   ArtChar4a.SetActive(true);
+			   ArtChar4a.SetActive(false);
 			   ArtChar5d.SetActive(false);
-			   ArtChar5a.SetActive(true);
+			   ArtChar5e.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
@@ -649,13 +650,13 @@ public void next(){
 			    ArtChar3c.SetActive(true);
 			   ArtChar4a.SetActive(false);
 			   ArtChar4c.SetActive(true);
-			   ArtChar5d.SetActive(false);
-			   ArtChar5e.SetActive(true);
+			   ArtChar5a.SetActive(false);
+			   ArtChar5e.SetActive(false);
                 Char1name.text = "";
                 Char1speech.text = "";
-                Char2name.text = "";
-                Char2speech.text = "BOSS";
-				Char3name.text = "WHAT THE F-";
+                Char2name.text = "BOSS";
+                Char2speech.text = "WHAT THE FU-";
+				Char3name.text = "";
                 Char3speech.text = "";
                 Char4name.text = "";
                 Char4speech.text = "";
@@ -718,7 +719,7 @@ public void next(){
 			   ArtChar5a.SetActive(true);
 			   ArtChar5c.SetActive(false);
                 Char1name.text = "SCRAPPY";
-                Char1speech.text = "Haha. Yeha. You really saved my bacon, bub. Thanks.";
+                Char1speech.text = "Haha. Yeah. You really saved my bacon, bub. Thanks.";
                 Char2name.text = "";
                 Char2speech.text = "";
 				Char3name.text = "";
@@ -853,11 +854,11 @@ public void next(){
         public void Choice1aFunct(){
 			 ArtChar1c.SetActive(false);
 		   ArtChar1d.SetActive(true);
-			   ArtChar2c.SetActive(true);
+			   ArtChar2a.SetActive(true);
 			    ArtChar2b.SetActive(false);
-			   ArtChar3c.SetActive(true);
+			   ArtChar3a.SetActive(true);
 			    ArtChar3b.SetActive(false);
-			   ArtChar4c.SetActive(true);
+			   ArtChar4a.SetActive(true);
 			   ArtChar4b.SetActive(false);
 			 GameHandler.ratAlly = true; 
                 Char1name.text = "";

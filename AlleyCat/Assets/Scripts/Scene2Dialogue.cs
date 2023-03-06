@@ -656,7 +656,7 @@ public void next(){
 		     ArtChar1c.SetActive(true);
 		     GameHandler.ratAlly = true; 
                 Char1name.text = "SCRAPPY";
-                Char1speech.text = "Well! I'll take you up on that offer. \n God knows I need all the help I can get.";
+                Char1speech.text = "Well! I'll take you up on that offer.\n God knows I need all the help I can get.";
                 Char2name.text = "";
                 Char2speech.text = "";
                 primeInt = 399;
