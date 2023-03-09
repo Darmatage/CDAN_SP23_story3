@@ -39,6 +39,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Scene4b.unity
     guid: bb463ed4d4c104097b16040a8ba0a900
   - enabled: 1
+    path: Assets/Scenes/EndWinCatsby.unity
+    guid: d566477103ce8f74d846086203d82bc9
+  - enabled: 1
     path: Assets/Scenes/Scene4c.unity
     guid: 614ecf55566c06c4cb581c6e93471596
   - enabled: 1
