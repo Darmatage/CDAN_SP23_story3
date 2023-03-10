@@ -78,57 +78,60 @@ public void next(){
                 // AudioSource.Play();
         }
         else if (primeInt == 2){
-               ArtChar1a.SetActive(true);
+               ArtChar1b.SetActive(true);
                 DialogueDisplay.SetActive(true);
-                Char1name.text = "";
-                Char1speech.text = "";
+                Char1name.text = "SCRAPPY";
+                Char1speech.text = "Geez louise... this town's too much for me!!!";
                 Char2name.text = "";
                 Char2speech.text = "";
         }
        else if (primeInt ==3){
-                Char1name.text = "";
-                Char1speech.text = "";
+		   ArtChar1b.SetActive(false);
+		   ArtChar1c.SetActive(true);
+                Char1name.text = "SCRAPPY";
+                Char1speech.text = "I wanna run away so bad... but they'll find me.";
                 Char2name.text = "";
                 Char2speech.text = "";
              
         }
        else if (primeInt == 4){
-                Char1name.text = "";
-                Char1speech.text = "";
+		   ArtChar1a.SetActive(true);
+		   ArtChar1c.SetActive(false);
+                Char1name.text = "SCRAPPY";
+                Char1speech.text = "*sigh* Maybe I'll have luck on the outskirts...";
                 Char2name.text = "";
                 Char2speech.text = "";
         }
        else if (primeInt == 5){
-                Char1name.text = "";
-                Char1speech.text = "";
+		   ArtChar1d.SetActive(true);
+		   ArtChar1a.SetActive(false);
+                Char1name.text = "SCRAPPY";
+                Char1speech.text = "The dock might have some people... could sell ANYTHING as fish bait these days!";
                 Char2name.text = "";
                 Char2speech.text = "";
               
         }
        else if (primeInt == 6){
-                Char1name.text = "";
-                Char1speech.text = "";
+		    ArtChar1a.SetActive(true);
+		   ArtChar1d.SetActive(false);
+                Char1name.text = "SCRAPPY";
+                Char1speech.text = "Oh but the beach too, bound to be full of chumps!! Especially at night. I think?";
                 Char2name.text = "";
                 Char2speech.text = "";
         }
        else if (primeInt ==7){
-                Char1name.text = "";
-                Char1speech.text = "";
+		   ArtChar1b.SetActive(true);
+		   ArtChar1a.SetActive(false);
+                Char1name.text = "SCRAPPY";
+                Char1speech.text = "Hmmm where to go...";
                 Char2name.text = "";
                 Char2speech.text = "";
-        }
-       else if (primeInt == 8){
-                Char1name.text = "";
-                Char1speech.text = "";
-                Char2name.text = "";
-                Char2speech.text = "";
-                // Turn off "Next" button, turn on "Choice" buttons
-				//these three lines below only appear at choices
-                nextButton.SetActive(false);
+				nextButton.SetActive(false);
                 allowSpace = false;
-                Choice1a.SetActive(true); // function Choice1aFunct()
-                Choice1b.SetActive(true); // function Choice1bFunct()
+               NextScene1Button.SetActive(true);
+                NextScene2Button.SetActive(true);
         }
+       
 				//if you have more choices later on, label them, like if its the 2nd choice= Choice2a and Choice2b
 				
 // ENCOUNTER AFTER CHOICE #1
@@ -201,9 +204,9 @@ public void next(){
 //make sure for the scene change below it matches the name of the scene you want to go to, like endloserat or scene5 etc
 
         public void SceneChange1(){
-               SceneManager.LoadScene("Scene2");
+               SceneManager.LoadScene("Scene6a");
         }
         public void SceneChange2(){
-                SceneManager.LoadScene("Scene2");
+                SceneManager.LoadScene("Scene6b");
         }
 }
