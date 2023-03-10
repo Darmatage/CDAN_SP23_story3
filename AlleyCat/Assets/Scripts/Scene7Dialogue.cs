@@ -124,7 +124,7 @@ public void next(){
 			   ArtChar3a.SetActive(false);
 			   ArtChar4a.SetActive(false);
                 Char1name.text = "SCRAPPY";
-                Char1speech.text = "At least the view is nice.";
+                Char1speech.text = "Whatever happens, at least the view is nice.";
                 Char2name.text = "";
                 Char2speech.text = "";
 				Char3name.text = "";
@@ -198,7 +198,7 @@ public void next(){
                 Char1speech.text = "";
                 Char2name.text = "";
                 Char2speech.text = "";
-				Char3name.text = "Grunt 2";
+				Char3name.text = "Grunt 1";
                 Char3speech.text = "You thought wrong, Scraps. We've been so patient with you- and ya still couldn't get the job done, eh?";
                 Char4name.text = "";
                 Char4speech.text = "";
@@ -255,8 +255,8 @@ public void next(){
                 Char2speech.text = "";
 				Char3name.text = "";
                 Char3speech.text = "";
-                Char4name.text = "Grunt 1";
-                Char4speech.text = "Cut the shit. We're done waiting. Please don't squirm while we finish ya off,\n Keep the dignity intact.";
+                Char4name.text = "Grunt 2";
+                Char4speech.text = "Cut the shit. We're done waiting. Please don't squirm while we finish ya off,\n Keep SOME dignity intact.";
        Char5name.text = "";
                 Char5speech.text = "";
 	   }
@@ -270,8 +270,8 @@ public void next(){
 			   ArtChar4b.SetActive(false);
                 Char1name.text = "";
                 Char1speech.text = "";
-                Char2name.text = "BOSS";
-                Char2speech.text = "*crack*";
+                Char2name.text = "";
+                Char2speech.text = "*knuckle crack*";
 				Char3name.text = "";
                 Char3speech.text = "";
                 Char4name.text = "";
@@ -419,7 +419,7 @@ public void next(){
                 Char4name.text = "";
                 Char4speech.text = "";
 				Char5name.text = "RAT";
-                Char5speech.text = "Now. What're you mangy mutts doin' to my pal here? \n I suggest you back off.";
+                Char5speech.text = "Now. What're you mangy mutts doin' to my pal here?\nI suggest you back off.";
         }
 		else if (primeInt == 104){
 		   ArtChar1a.SetActive(true);
@@ -438,7 +438,7 @@ public void next(){
                 Char2speech.text = "";
 				Char3name.text = "";
                 Char3speech.text = "";
-                Char4name.text = "Grunt 1";
+                Char4name.text = "Grunt 2";
                 Char4speech.text = "gYAHAHAHA!!! The hell is this?!?!";
 				Char5name.text = "";
                 Char5speech.text = "";
@@ -458,7 +458,7 @@ public void next(){
                 Char1speech.text = "";
                 Char2name.text = "";
                 Char2speech.text = "";
-				Char3name.text = "GRUNT 2";
+				Char3name.text = "GRUNT 1";
                 Char3speech.text = "HAHAHAAA! WOW. This supposed to be yer backup Scraps?";
                 Char4name.text = "";
                 Char4speech.text = "";
@@ -595,7 +595,7 @@ public void next(){
                 Char4name.text = "";
                 Char4speech.text = "";
 				Char5name.text = "RAT";
-                Char5speech.text = "*sip*";
+                Char5speech.text = "*sip* *sip*";
         }
 		else if (primeInt == 112){
 		  ArtChar1a.SetActive(true);
@@ -614,7 +614,7 @@ public void next(){
                 Char2speech.text = "";
 				Char3name.text = "";
                 Char3speech.text = "";
-                Char4name.text = "GRUNT 1";
+                Char4name.text = "GRUNT 2";
                 Char4speech.text = "Whatcha drinkin', gonna have a growth spurt? HA!";
 				Char5name.text = "";
                 Char5speech.text = "";
@@ -639,7 +639,7 @@ public void next(){
                 Char4name.text = "";
                 Char4speech.text = "";
 				Char5name.text = "RAT";
-                Char5speech.text = "Yup.";
+                Char5speech.text = "Yes.";
         }
 		else if (primeInt == 114){
 		  ArtChar1a.SetActive(true);
@@ -793,7 +793,7 @@ public void next(){
                 Char4name.text = "";
                 Char4speech.text = "";
 				Char5name.text = "RAT";
-                Char5speech.text = "But it poisoned the fuck outta the guy sleepin' with my girl. \n So I owed ya one. Thanks.";
+                Char5speech.text = "But it poisoned the the guy sleepin' with my girl.\nSo I owed ya one. Thanks.";
         }
 		 
        else if (primeInt == 121){

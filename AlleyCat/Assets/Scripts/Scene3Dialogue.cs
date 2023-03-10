@@ -66,26 +66,26 @@ public void next(){
                ArtChar1a.SetActive(true);
                 DialogueDisplay.SetActive(true);
                 Char1name.text = "SCRAPPY";
-                Char1speech.text = "Ahhhh my clock is tickin’... I gotta hurry up!";
+                Char1speech.text = "Ahhhh my clock is tickin’. I gotta hurry up!";
         }
        else if (primeInt ==3){
 		   ArtChar1a.SetActive(false);
 		   ArtChar1b.SetActive(true);
                 Char1name.text = "SCRAPPY";
-                Char1speech.text = "Let’s see… I could go to the pub… might be a lotta folks ‘round there…";
+                Char1speech.text = "Let’s see… I could go to the pub. Might be lotsa folks ‘round there…";
                 //gameHandler.AddPlayerStat(1);
         }
        else if (primeInt == 4){
 		   ArtChar1b.SetActive(false);
 		   ArtChar1c.SetActive(true);
                 Char1name.text = "SCRAPPY";
-                Char1speech.text = "ORRR maybe Main Street? Might be bustling with life… and suckers…";
+                Char1speech.text = "ORRR maybe Main Street? Might be bustling with life… and rich suckers…";
         }
        else if (primeInt == 5){
 		   ArtChar1c.SetActive(false);
 		   ArtChar1d.SetActive(true);
                 Char1name.text = "SCRAPPY";
-                Char1speech.text = "Then again… maybe I can find a rat that can actually pay me by the dumpsters… might find more, ahem, goods.";
+                Char1speech.text = "Then again… maybe I can find a rat that can actually pay me by the dumpsters. Might find more, ahem, goods.";
                 //gameHandler.AddPlayerStat(1);
         }
        else if (primeInt == 6){

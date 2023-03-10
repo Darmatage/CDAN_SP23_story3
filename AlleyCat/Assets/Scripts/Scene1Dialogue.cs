@@ -40,7 +40,7 @@ public class Scene1Dialogue : MonoBehaviour {
         //public GameObject NextScene2Button;
         public GameObject nextButton;
        public GameHandler gameHandler;
-       public AudioSource SFX_footsteps;
+       public AudioSource SFX_catYelp;
         private bool allowSpace = true;
 
 // initial visibility settings. Any new images or buttons need to also be SetActive(false);
@@ -97,6 +97,7 @@ public void next(){
         }
        else if (primeInt ==3){
 		   ArtChar1a.SetActive(true);
+
                 Char1name.text = "SCRAPPY";
                 Char1speech.text = "At least I have this alley to myself.";
                 Char2name.text = "";
@@ -107,7 +108,23 @@ public void next(){
                 Char4speech.text = "";	
                 //gameHandler.AddPlayerStat(1);
         }
-       else if (primeInt == 4){
+		else if (primeInt == 4){
+		    ArtChar1a.SetActive(false);
+		    ArtChar1e.SetActive(true);
+			
+		   ArtChar2a.SetActive(true);
+		   ArtChar3a.SetActive(true);
+		   ArtChar4a.SetActive(true);
+                Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "";
+                Char2speech.text = "*step* *step* *step*";
+                Char3name.text = "";
+                Char3speech.text = "";				
+                Char4name.text = "";
+                Char4speech.text = "";			
+		}
+       else if (primeInt == 5){
 		    ArtChar1a.SetActive(false);
 		    ArtChar1e.SetActive(true);
 			
@@ -123,7 +140,7 @@ public void next(){
                 Char4name.text = "";
                 Char4speech.text = "";			
 		}
-       else if (primeInt == 5){
+       else if (primeInt == 6){
 		     ArtChar1a.SetActive(true);
 		    ArtChar1e.SetActive(false);
                 Char1name.text = "";
@@ -137,7 +154,7 @@ public void next(){
                 //gameHandler.AddPlayerStat(1);
         }
   
-       else if (primeInt == 6){
+       else if (primeInt == 7){
 		     ArtChar1a.SetActive(false);
 		    ArtChar1f.SetActive(true);		   
                 Char1name.text = "SCRAPPY";
@@ -157,7 +174,7 @@ public void next(){
         }
 		
 		
-     else if (primeInt == 10){
+     else if (primeInt == 11){
 		 		     ArtChar1d.SetActive(false);
 		    ArtChar1e.SetActive(false);
 			 ArtChar1f.SetActive(true);
@@ -170,18 +187,18 @@ public void next(){
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "BOSS";
-                Char2speech.text = "You are now three weeks behind on payments. \n You know exactly what happens next.";
+                Char2speech.text = "You are now three weeks behind on payments.\nYou know exactly what happens next.";
         
                 Char3name.text = "";
                 Char3speech.text = "";				
                 Char4name.text = "";
                 Char4speech.text = "";			
 		}
-       else if (primeInt ==11){
+       else if (primeInt ==12){
 		   ArtChar1f.SetActive(false);
 			 ArtChar1d.SetActive(true);
                 Char1name.text = "SCRAPPY";
-                Char1speech.text = "C’mon! I-I’ve been such a good salescat! \n I can scrape it all together in an afternoon!";
+                Char1speech.text = "C’mon! I-I’ve been such a good salescat!\nI can scrape it all together tonight!";
                 Char2name.text = "";
                 Char2speech.text = "";
                 Char3name.text = "";
@@ -190,7 +207,7 @@ public void next(){
                 Char4speech.text = "";	
 	}		
 		
-     else if (primeInt == 12){
+     else if (primeInt == 13){
 		  ArtChar2a.SetActive(true);
 		   ArtChar2b.SetActive(false);
 		    ArtChar3a.SetActive(false);
@@ -205,11 +222,11 @@ public void next(){
                 Char4name.text = "";
                 Char4speech.text = "";			
 		}
-       else if (primeInt ==13){
+       else if (primeInt ==14){
 		   ArtChar1d.SetActive(false);
 			 ArtChar1c.SetActive(true);
                 Char1name.text = "SCRAPPY";
-                Char1speech.text = "W-what? No way! I-I’ve got this big deal, see! A few, actually! \n I’ll have it all settled lickity split!";
+                Char1speech.text = "W-what? No way! I-I’ve got this big deal, see! A few, actually!\nI’ll have it all settled lickity split!";
                 Char2name.text = "";
                 Char2speech.text = "";
                 Char3name.text = "";
@@ -217,21 +234,21 @@ public void next(){
                 Char4name.text = "";
                 Char4speech.text = "";	
 	}		
-     else if (primeInt == 14){
+     else if (primeInt == 15){
 		 
 		 ArtChar3a.SetActive(true);
 			 ArtChar3b.SetActive(false);
                 Char1name.text = "";
                 Char1speech.text = "";
-                Char2name.text = "";
-                Char2speech.text = "";
+                Char2name.text = "BOSS";
+                Char2speech.text = "...";
         
                 Char3name.text = "";
                 Char3speech.text = "";				
-                Char4name.text = "DOGS";
-                Char4speech.text = "(...)";			
+                Char4name.text = "";
+                Char4speech.text = "";			
 		}
-       else if (primeInt ==15){
+       else if (primeInt ==16){
 		   ArtChar1c.SetActive(false);
 			 ArtChar1f.SetActive(true);
                 Char1name.text = "SCRAPPY";
@@ -244,20 +261,20 @@ public void next(){
                 Char4speech.text = "";	
 	}		
 				
-		else if (primeInt ==16){
+		else if (primeInt ==17){
 			ArtChar1f.SetActive(false);
 			 ArtChar1a.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "BOSS";
-                Char2speech.text = "You have until tonight. \n Do not keep us waiting.";
+                Char2speech.text = "You have until tonight.\nDo not keep us waiting.";
                 Char3name.text = "";
                 Char3speech.text = "";				
                 Char4name.text = "";
                 Char4speech.text = "";	
 	}
 	
-		else if (primeInt ==17){
+		else if (primeInt ==18){
 			ArtChar3a.SetActive(false);
 			 ArtChar3b.SetActive(true);
                 Char1name.text = "";
@@ -265,27 +282,27 @@ public void next(){
                 Char2name.text = "";
                 Char2speech.text = "";
                 Char3name.text = "GRUNT 1";
-                Char3speech.text = "And don’t try to skip town, neither. \n You even try to hitch a ride…";				
+                Char3speech.text = "And don’t try to skip town, neither.\nYou even TRY to hitch a ride…";				
                 Char4name.text = "";
                 Char4speech.text = "";	
 	}
 	
-	       else if (primeInt ==18){
+	       else if (primeInt ==19){
 			   ArtChar3a.SetActive(true);
 			 ArtChar3b.SetActive(false);
 			 ArtChar4a.SetActive(false);
 			 ArtChar4b.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
-                Char2name.text = "GRUNT 2";
+                Char2name.text = "";
                 Char2speech.text = "";
                 Char3name.text = "";
                 Char3speech.text = "";				
                 Char4name.text = "GRUNT 2";
-                Char4speech.text = "You’re. Done. Capiche?";	
+                Char4speech.text = "You’re.\nDone.\nCapiche?";	
 	}
 	
-	       else if (primeInt ==19){
+	       else if (primeInt ==20){
 			   ArtChar1a.SetActive(false);
 			 ArtChar1c.SetActive(true);
 			   ArtChar4a.SetActive(true);
@@ -300,7 +317,7 @@ public void next(){
                 Char4speech.text = "";	
 	}
 
-	       else if (primeInt ==20){
+	       else if (primeInt ==21){
 			   ArtChar2a.SetActive(false);
 			 ArtChar2b.SetActive(true);
                 Char1name.text = "";
@@ -313,7 +330,7 @@ public void next(){
                 Char4speech.text = "";	
 	}
 
-	       else if (primeInt ==21){
+	       else if (primeInt ==22){
 			   ArtChar1c.SetActive(false);
 			 ArtChar1a.SetActive(true);
 			ArtChar2a.SetActive(false);
@@ -323,13 +340,13 @@ public void next(){
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
-                Char2speech.text = "*step* *step* *step* *step*";
+                Char2speech.text = "*step* *step* *step*";
                 Char3name.text = "";
                 Char3speech.text = "";				
                 Char4name.text = "";
                 Char4speech.text = "";	
 	}
-	       else if (primeInt ==22){
+	       else if (primeInt ==23){
 			   ArtChar1c.SetActive(false);
 			 ArtChar1a.SetActive(true);
 			ArtChar2a.SetActive(false);
@@ -346,7 +363,7 @@ public void next(){
                 Char4speech.text = "";	
 	}
 
-	       else if (primeInt ==23){
+	       else if (primeInt ==24){
 			   ArtChar1a.SetActive(false);
 			 ArtChar1f.SetActive(true);
                 Char1name.text = "SCRAPPY";
@@ -387,7 +404,7 @@ public void next(){
                 Char3speech.text = "Yeah. But it’s a bit late, ain't it?";				
                 Char4name.text = "";
                 Char4speech.text = "";	
-				primeInt = 9;
+				primeInt = 10;
 
 	}
 	
@@ -435,7 +452,7 @@ public void next(){
                 Char3speech.text = "";				
                 Char4name.text = "GRUNT 2";
                 Char4speech.text = "Pretty hot!";	        
-				primeInt = 9;
+				primeInt = 10;
 		}
 		
 		
@@ -449,7 +466,7 @@ public void next(){
 		    ArtChar1f.SetActive(false);
 
                 Char1name.text = "SCRAPPY";
-                Char1speech.text = "Hey now, fellas! L-look. I know I'm late-gimme a bit more time! \n I promise I can pay it all back!";
+                Char1speech.text = "Hey now, fellas! L-look. I know I'm late-gimme a bit more time!\nI promise I can pay it all back!";
                 Char2name.text = "";
                 Char2speech.text = "";
                 Char3name.text = "";
@@ -467,7 +484,7 @@ public void next(){
 					     ArtChar1f.SetActive(false);
 		    ArtChar1e.SetActive(true);
                 Char1name.text = "SCRAPPY";
-                Char1speech.text = "Hey now, fellas! I know it ain't all settled yet, but I’m your best dealer! \n You won’t find anyone better than me.";
+                Char1speech.text = "Hey now, fellas! I know it ain't all settled yet, but I’m your best dealer!\nYou won’t find anyone better than me.";
                 Char2name.text = "";
                 Char2speech.text = "";
                 Char3name.text = "";

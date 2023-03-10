@@ -171,7 +171,7 @@ public void next(){
 			ArtChar2a.SetActive(false);
 		     ArtChar2b.SetActive(true);
                 Char1name.text = "SCRAPPY";
-                Char1speech.text = "What if I showed you a... TIN OF SARDINES?!?! Fish to keep company!";
+                Char1speech.text = "What if I showed you a... TIN OF SARDINES?!?! Fish to keep you company!";
                 Char2name.text = "";
                 Char2speech.text = "";
         }
@@ -398,7 +398,7 @@ public void next(){
 			  ArtChar2d.SetActive(false);
 			    ArtChar2e.SetActive(true);
                 Char1name.text = "SCRAPPY";
-                Char1speech.text = "Wow. What a guy. But I know how ya feel, mister. And you seem to be better off considering your uh. Lovely legs.";
+                Char1speech.text = "Wow. What a guy. But I know how ya feel, mister. Don't this seem like fate, though?";
                 Char2name.text = "";
                 Char2speech.text = "";
         }
@@ -435,7 +435,7 @@ public void next(){
 			  ArtChar2e.SetActive(true);
 			    ArtChar2c.SetActive(false);
                 Char1name.text = "SCRAPPY";
-                Char1speech.text = "Woah woah woah- this is a store, not an adoption agency. Cash only!!!";
+                Char1speech.text = "Woah woah woah-! this is a store, not an adoption agency. Cash only!!!";
                 Char2name.text = "";
                 Char2speech.text = "";
         }
@@ -452,14 +452,14 @@ public void next(){
 									ArtChar1c.SetActive(false);	
 		     ArtChar1b.SetActive(true);
 			  ArtChar2d.SetActive(false);
-			    ArtChar2c.SetActive(true);
+			    ArtChar2c.SetActive(false);
                 Char1name.text = "SCRAPPY";
                 Char1speech.text = "PLEASURE DOING BUSINESS!!!";
                 Char2name.text = "";
                 Char2speech.text = "";
         }
 								else if (primeInt == 309){
-									 ArtChar2c.SetActive(false);
+									
                 Char1name.text = "SCRAPPY";
                 Char1speech.text = "Mwehehe... I'll take a walk on the beach as a reward.";
                 Char2name.text = "";
@@ -516,7 +516,7 @@ public void next(){
                 Char2speech.text = "SCREW YOU JERK!!!";
         }
 								       else if (primeInt == 404){
-					 ArtChar2c.SetActive(true);					   
+					 ArtChar2c.SetActive(false);					   
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
@@ -526,7 +526,7 @@ public void next(){
 			 ArtChar1a.SetActive(false);	
 		     ArtChar1d.SetActive(true);
                 Char1name.text = "SCRAPPY";
-                Char1speech.text = "Into the sea he goes... well crap.";
+                Char1speech.text = "Into the sea he goes... well carp. Crap, crap, not carp.";
                 Char2name.text = "";
                 Char2speech.text = "";
         }
@@ -603,7 +603,7 @@ ArtChar1a.SetActive(false);
 						ArtChar1d.SetActive(false);						 
 		     ArtChar1e.SetActive(true);
                 Char1name.text = "SCRAPPY";
-                Char1speech.text = "A neglectful parent who left these poor babies to die?! How shameful.";
+                Char1speech.text = "A neglectful parent who left these babies to die?! These poor kids!!!";
                 Char2name.text = "";
                 Char2speech.text = "";
                 primeInt = 299;

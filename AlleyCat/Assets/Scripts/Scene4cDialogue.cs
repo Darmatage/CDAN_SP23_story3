@@ -455,6 +455,6 @@ public void next(){
                SceneManager.LoadScene("EndLoseWeed");
         }
         public void SceneChange2(){
-                SceneManager.LoadScene("Scene3");
+                SceneManager.LoadScene("Scene5");
         }
 }

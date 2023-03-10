@@ -59,8 +59,8 @@ void Start(){
 		ArtChar2c.SetActive(false);
 		//ArtChar2d.SetActive(false);
 		//ArtChar2e.SetActive(false);
-       ArtBG1.SetActive(true);
-	   ArtBG2.SetActive(false);
+       ArtBG1.SetActive(false);
+	   ArtBG2.SetActive(true);
         Choice1a.SetActive(false);
         Choice1b.SetActive(false);
 		        Choice2a.SetActive(false);
@@ -100,12 +100,11 @@ public void next(){
                 Char4speech.text = "";
         }
        else if (primeInt ==3){
-		   ArtBG1.SetActive(false);
-		    ArtBG2.SetActive(true);
-	  ArtChar1a.SetActive(false);
-	    DialogueDisplay.SetActive(false);
-                Char1name.text = "";
-                Char1speech.text = "";
+		 
+	 
+	    
+                Char1name.text = "SCRAPPY";
+                Char1speech.text = "Now let's see!!!";
                 Char2name.text = "";
                 Char2speech.text = "";
              		 		Char3name.text = "";
@@ -247,7 +246,7 @@ public void next(){
         }
 				       else if (primeInt ==20){
                 Char1name.text = "SCRAPPY";
-                Char1speech.text = "Easy pal, this here's the best cure for a hangover on the market. \n Want a taste test? I'm sellin' it y'see.";
+                Char1speech.text = "Easy pal, this here's the best cure for a hangover on the market.\nWant a taste test? I'm sellin' it y'see.";
                 Char2name.text = "";
                 Char2speech.text = "";
 						 	Char3name.text = "";
@@ -386,7 +385,7 @@ public void next(){
         }	
 		else if (primeInt ==35){
                 Char1name.text = "";
-                Char1speech.text = "*step* *step* *step *step*";
+                Char1speech.text = "*step* *step* *step*";
                 Char2name.text = "";
                 Char2speech.text = "";
 						 Char3name.text = "";
@@ -403,7 +402,7 @@ public void next(){
                 Char2name.text = "";
                 Char2speech.text = "";
 				Char3name.text = "RANDO 1";
-				Char3speech.text = "I'll hhhave one bleaseee.!!!";
+				Char3speech.text = "I'll hhhave some bleaseee.!!!";
 				Char4name.text = "";
                 Char4speech.text = "";
 		}	
@@ -687,7 +686,7 @@ public void next(){
 					ArtChar1e.SetActive(false);
 					ArtChar1a.SetActive(true);
                 Char1name.text = "SCRAPPY";
-                Char1speech.text = "How about just a sample size for now huh?";
+                Char1speech.text = "How about just a sample size for now, huh?";
                 Char2name.text = "";
                 Char2speech.text = "";
                 primeInt = 299;

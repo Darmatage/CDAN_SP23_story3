@@ -123,7 +123,7 @@ public void next(){
                 Char2speech.text = "";
 				Char3name.text = "";
                 Char3speech.text = "";
-				Char4name.text = "Grunt 1";
+				Char4name.text = "Grunt 2";
                 Char4speech.text = "Heyyy kitty cat.";
         }
        else if (primeInt == 5){
@@ -157,7 +157,7 @@ public void next(){
                 Char1speech.text = "";
                 Char2name.text = "";
                 Char2speech.text = "";
-				Char3name.text = "Grunt 2";
+				Char3name.text = "Grunt 1";
                 Char3speech.text = "Got the money or what, jackass?";
 				Char4name.text = "";
                 Char4speech.text = "";
@@ -267,8 +267,8 @@ public void next(){
                 Char2speech.text = "";
 				Char3name.text = "";
                 Char3speech.text = "";
-				Char4name.text = "Grunt 1";
-                Char4speech.text = "Damn, scraps. I was lookin' forward to tearin' ya limb from limb.\n You are one luckyyy bastard!";
+				Char4name.text = "Grunt 2";
+                Char4speech.text = "Damn. I was lookin' forward to tearin' ya limb from limb.\nYou are one luckyyy bastard!";
         }
        else if (primeInt == 13){
 		   
@@ -282,7 +282,7 @@ public void next(){
                 Char1speech.text = "";
                 Char2name.text = "";
                 Char2speech.text = "";
-				Char3name.text = "Grunt 2";
+				Char3name.text = "Grunt 1";
                 Char3speech.text = "You ever try to rip us off like that again though...";
 				Char4name.text = "";
                 Char4speech.text = "";

@@ -114,7 +114,7 @@ public void next(){
                 DialogueDisplay.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
-                Char2name.text = "???";
+                Char2name.text = "CATSBY";
                 Char2speech.text = "*sigh*";
               
         }
@@ -138,7 +138,7 @@ public void next(){
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "CATSBY";
-                Char2speech.text = "Ah.. 9:27.";
+                Char2speech.text = "Ah... 9:27.";
         }
        else if (primeInt == 7){
 		   ArtChar1a.SetActive(true);
@@ -167,7 +167,7 @@ public void next(){
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "CATSBY";
-                Char2speech.text = "Ah Old Sport... keep your penny.";
+                Char2speech.text = "Ah, Old Sport... keep your penny.";
         }
        else if (primeInt == 101){
 		   ArtChar1c.SetActive(true);
@@ -177,7 +177,7 @@ public void next(){
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "CATSBY";
-                Char2speech.text = "I've got all the riches in the world...\n But no one to share it with.";
+                Char2speech.text = "I've got all the riches in the world...\nBut no one to share it with.";
 				//these three lines below only appear when you move onto the next scene
               //  nextButton.SetActive(false);
            //     allowSpace = false;
@@ -199,7 +199,7 @@ public void next(){
 		     ArtChar2d.SetActive(true);
 			 ArtChar2e.SetActive(false);
                 Char1name.text = "SCRAPPY";
-                Char1speech.text = "Do tell. Haven't got a missus or colleague, or anything?";
+                Char1speech.text = "Do tell. Haven't got a missus, or colleague, or anything?";
                 Char2name.text = "";
                 Char2speech.text = "";
         }
@@ -318,7 +318,7 @@ public void next(){
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "CATSBY";
-                Char2speech.text = "I throw these divine ~Summer Parties~ but never actually invite anyone. \n Cats just show up.";
+                Char2speech.text = "I throw these divine ~Summer Parties~ but never actually invite anyone.\nCats just show up.";
         }
 				       else if (primeInt == 116){
 			ArtChar1c.SetActive(true);
@@ -430,7 +430,7 @@ public void next(){
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "CATSBY";
-                Char2speech.text = "Okay well firstly that's my catchpjrase please refrain from saying my catchphrase.";
+                Char2speech.text = "Okay well firstly. That's my catchphrase please refrain from saying my catchphrase.";
 		}	
 		else if (primeInt == 303){
 			ArtChar1d.SetActive(true);
@@ -498,7 +498,7 @@ public void next(){
 		     ArtChar2d.SetActive(false);
 			 ArtChar2c.SetActive(false);
                 Char1name.text = "SCRAPPY";
-                Char1speech.text = "C-crap...! I was too obvious with my ulterior motive. Damn.";
+                Char1speech.text = "(C-crap...! I was too obvious. Damn.)";
                 Char2name.text = "";
                 Char2speech.text = "";
 		}	
@@ -539,7 +539,7 @@ public void next(){
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "CATSBY";
-                Char2speech.text = "I have all the money in the world.\n What good would investing do for my sad state?";
+                Char2speech.text = "I have all the money in the world.\nWhat good would investing do for my sad state?";
 		}
 				else if (primeInt == 402){
 					ArtChar1b.SetActive(true);
@@ -692,7 +692,7 @@ public void next(){
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "CATSBY";
-                Char2speech.text = "Well I haven't felt the touch of another living being in years so... alright.";
+                Char2speech.text = "Well I haven't felt the touch of another living being in decades so... alright.";
 		}
 				else if (primeInt == 507){
 					ArtChar1b.SetActive(true);
@@ -722,7 +722,7 @@ public void next(){
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "CATSBY";
-                Char2speech.text = "Unsurprisingly, no. Who could've guessed a hug wouldn't infact fix my inablity to connect to others.";
+                Char2speech.text = "Unsurprisingly, no. Who could've guessed hugging a stinky cat would not infact fix my inablity to connect to others.";
 		}
 				else if (primeInt == 510){
 					ArtChar1a.SetActive(true);
@@ -732,7 +732,7 @@ public void next(){
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "CATSBY";
-                Char2speech.text = "Thank you for the effort, Old Sport, but I must be going now. Farewell.";
+                Char2speech.text = "Thank you for the effort, Old Sport, but I must be going now. Farewell.\nAlso please take a bath.";
 		}
 					else if (primeInt == 511){
 						ArtChar1d.SetActive(true);
@@ -784,10 +784,11 @@ public void next(){
         public void Choice1bFunct(){
 			ArtChar1b.SetActive(true);
 		   ArtChar1d.SetActive(false);
+		   ArtChar1a.SetActive(false);
 		     ArtChar2c.SetActive(true);
 			 ArtChar2d.SetActive(false);
                 Char1name.text = "SCRAPPY";
-                Char1speech.text = "So. You busy? You sure dress fancy.\nMaybe I got what you need!";
+                Char1speech.text = "So. You busy? You seem upset.\nMaybe I got what you need here in my shop!";
                 Char2name.text = "";
                 Char2speech.text = "";
                 primeInt = 199;
