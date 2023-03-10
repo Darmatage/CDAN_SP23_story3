@@ -642,6 +642,7 @@ public void next(){
         public void Choice2aFunct(){
 			   ArtChar1f.SetActive(false);
 		     ArtChar1b.SetActive(true);
+			 GameHandler.ratAlly = false;
                 Char1name.text = "SCRAPPY";
                 Char1speech.text = "Ah... a kind offer, but I'm kinda desperate for money right now sir.";
                 Char2name.text = "";
