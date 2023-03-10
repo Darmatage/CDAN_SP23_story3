@@ -150,7 +150,7 @@ RectTransform:
   m_GameObject: {fileID: 52559712}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: -0.9, y: 1, z: 1}
+  m_LocalScale: {x: -0.9, y: 0.9, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1965978296}
@@ -1503,7 +1503,7 @@ RectTransform:
   m_GameObject: {fileID: 1035401712}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: -0.9, y: 1, z: 1}
+  m_LocalScale: {x: -0.9, y: 0.9, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1965978296}
@@ -2520,7 +2520,7 @@ MonoBehaviour:
   NextScene1Button: {fileID: 1723900428}
   nextButton: {fileID: 7837499470760767299}
   gameHandler: {fileID: 883806937}
-  SFX_catYelp: {fileID: 191363150}
+  SFX_footsteps: {fileID: 0}
 --- !u!1 &2065008005
 GameObject:
   m_ObjectHideFlags: 0
