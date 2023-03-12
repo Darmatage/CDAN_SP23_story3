@@ -232,7 +232,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6639540195115457551, guid: 99d947e84a462d04aabbead235bda611, type: 3}
       propertyPath: m_RootOrder
-      value: 20
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 6639540195115457551, guid: 99d947e84a462d04aabbead235bda611, type: 3}
       propertyPath: m_AnchorMax.x
@@ -1437,7 +1437,7 @@ PrefabInstance:
       objectReference: {fileID: 1965978297}
     - target: {fileID: 1725832458304661244, guid: 99d947e84a462d04aabbead235bda611, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Choice2bFunct
+      value: Choice3aFunct
       objectReference: {fileID: 0}
     - target: {fileID: 1725832458304661244, guid: 99d947e84a462d04aabbead235bda611, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -1457,7 +1457,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6639540195115457551, guid: 99d947e84a462d04aabbead235bda611, type: 3}
       propertyPath: m_RootOrder
-      value: 22
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 6639540195115457551, guid: 99d947e84a462d04aabbead235bda611, type: 3}
       propertyPath: m_AnchorMax.x
@@ -1584,7 +1584,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6639540195115457551, guid: 99d947e84a462d04aabbead235bda611, type: 3}
       propertyPath: m_RootOrder
-      value: 21
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6639540195115457551, guid: 99d947e84a462d04aabbead235bda611, type: 3}
       propertyPath: m_AnchorMax.x
@@ -1854,7 +1854,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4055406880255144789, guid: 00ca20c22745dd544b625cecbdcbe992, type: 3}
       propertyPath: m_RootOrder
-      value: 19
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 4055406880255144789, guid: 00ca20c22745dd544b625cecbdcbe992, type: 3}
       propertyPath: m_AnchorMax.x
@@ -2308,10 +2308,10 @@ RectTransform:
   - {fileID: 181399046}
   - {fileID: 1723900427}
   - {fileID: 541029972}
-  - {fileID: 1796611524}
   - {fileID: 171042415}
   - {fileID: 1464010199}
   - {fileID: 1397889938}
+  - {fileID: 1796611524}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
