@@ -634,6 +634,6 @@ ArtChar1a.SetActive(false);
                SceneManager.LoadScene("EndWinSurvive");
         }
         public void SceneChange2(){
-                SceneManager.LoadScene("EndLoseDock");
+                SceneManager.LoadScene("Scene7");
         }
 }
