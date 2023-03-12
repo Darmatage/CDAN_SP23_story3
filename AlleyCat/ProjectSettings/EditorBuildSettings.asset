@@ -66,6 +66,9 @@ EditorBuildSettings:
     path: Assets/Scenes/EndWinRat.unity
     guid: 7c39775af8b77fe4694b93c9654c5261
   - enabled: 1
+    path: Assets/Scenes/Scene8.unity
+    guid: 07fe835213c647c4b815bcf81811aeca
+  - enabled: 1
     path: Assets/Scenes/EndWinSurvive.unity
     guid: 7e743993a34661545ae2dadd987c3a62
   m_configObjects: {}

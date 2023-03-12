@@ -327,8 +327,14 @@ public void next(){
                 Char5speech.text = "";
                 nextButton.SetActive(false);
                 allowSpace = false;
-                NextScene1Button.SetActive(true);
-				Choice1a.SetActive(true);
+				
+				if (GameHandler.ratAlly == false){
+					NextScene1Button.SetActive(true);
+				} else {
+					Choice1a.SetActive(true);
+				}
+			
+			
 			Debug.Log("is the rat on your side? " + GameHandler.ratAlly);
         }				
 	
@@ -869,7 +875,7 @@ public void next(){
                 Char3speech.text = "";
                 Char4name.text = "";
                 Char4speech.text = "";
-				Char5name.text = "???";
+				Char5name.text = "VOICE";
                 Char5speech.text = "Not so fast.";
                 primeInt = 99;
                 Choice1a.SetActive(false);
@@ -891,7 +897,7 @@ public void next(){
 //make sure for the scene change below it matches the name of the scene you want to go to, like endloserat or scene5 etc
 
         public void SceneChange1(){
-               SceneManager.LoadScene("EndLoseDOck");
+               SceneManager.LoadScene("EndLoseDock");
         }
         public void SceneChange2(){
                 SceneManager.LoadScene("EndWinRat");
