@@ -109,12 +109,9 @@ public void next(){
                 //gameHandler.AddPlayerStat(1);
         }
 		else if (primeInt == 4){
-		    ArtChar1a.SetActive(false);
-		    ArtChar1e.SetActive(true);
+		    
 			
-		   ArtChar2a.SetActive(true);
-		   ArtChar3a.SetActive(true);
-		   ArtChar4a.SetActive(true);
+		   
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";

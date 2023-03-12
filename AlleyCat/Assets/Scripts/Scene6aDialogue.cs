@@ -631,7 +631,7 @@ ArtChar1a.SetActive(false);
 //make sure for the scene change below it matches the name of the scene you want to go to, like endloserat or scene5 etc
 
         public void SceneChange1(){
-               SceneManager.LoadScene("EndWinSurvive");
+               SceneManager.LoadScene("Scene8");
         }
         public void SceneChange2(){
                 SceneManager.LoadScene("Scene7");
