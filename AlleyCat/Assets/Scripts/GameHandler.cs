@@ -15,6 +15,7 @@ public class GameHandler : MonoBehaviour {
         public AudioMixer mixer;
         public static float volumeLevel = 1.0f;
         private Slider sliderVolumeCtrl;
+		public Texture2D cursorArrow;
 
         void Awake(){
                 SetLevel (volumeLevel);
@@ -28,6 +29,7 @@ public class GameHandler : MonoBehaviour {
         void Start(){
                 pauseMenuUI.SetActive(false);
                 GameisPaused = false;
+				   Cursor.SetCursor(cursorArrow, Vector2.zero, CursorMode.ForceSoftware);
         }
 
         void Update(){
