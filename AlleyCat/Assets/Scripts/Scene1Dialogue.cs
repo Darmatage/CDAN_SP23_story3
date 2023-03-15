@@ -41,6 +41,8 @@ public class Scene1Dialogue : MonoBehaviour {
         public GameObject nextButton;
        public GameHandler gameHandler;
        public AudioSource SFX_catYelp;
+	   public AudioSource town_theme;
+	   public AudioSource mafia_theme;
         private bool allowSpace = true;
 
 // initial visibility settings. Any new images or buttons need to also be SetActive(false);
@@ -84,6 +86,7 @@ public void next(){
                 // AudioSource.Play();
         }
         else if (primeInt == 2){
+			town_theme.Play ();
                ArtChar1a.SetActive(true);
                 DialogueDisplay.SetActive(true);
                 Char1name.text = "SCRAPPY";
@@ -122,6 +125,8 @@ public void next(){
                 Char4speech.text = "";			
 		}
        else if (primeInt == 5){
+			town_theme.Stop ();
+			mafia_theme.Play ();
 		    ArtChar1a.SetActive(false);
 		    ArtChar1e.SetActive(true);
 			
