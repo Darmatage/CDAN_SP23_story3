@@ -2218,7 +2218,7 @@ AudioSource:
   m_GameObject: {fileID: 1777673900}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 0249b9e5931b8744d9f464dee6a2c0f0, type: 2}
   m_audioClip: {fileID: 8300000, guid: 59fa204ba96078e44b2eab287bd29b90, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
@@ -2544,7 +2544,7 @@ MonoBehaviour:
   NextScene1Button: {fileID: 1723900428}
   nextButton: {fileID: 7837499470760767299}
   gameHandler: {fileID: 883806937}
-  SFX_catYelp: {fileID: 0}
+  SFX_catYelp: {fileID: 1777673902}
   town_theme: {fileID: 1965978299}
   mafia_theme: {fileID: 1965978298}
 --- !u!82 &1965978298

@@ -29,6 +29,7 @@ public class Scene2Dialogue : MonoBehaviour {
         public GameObject ArtBG1;
 		public GameObject ArtBG2;
 		public GameObject ArtBG3;
+		public GameObject ArtBG4;
         public GameObject Choice1a;
         public GameObject Choice1b;
 		public GameObject Choice2a;
@@ -58,6 +59,7 @@ void Start(){
         ArtBG1.SetActive(true);
 		ArtBG2.SetActive(false);
 		ArtBG3.SetActive(false);
+		ArtBG4.SetActive(false);
         Choice1a.SetActive(false);
         Choice1b.SetActive(false);
        Choice2a.SetActive(false);
@@ -147,7 +149,7 @@ public void next(){
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "RAT";
-                Char2speech.text = "Cut the shit. You landed a dirty pillow, pal.";
+                Char2speech.text = "Cut the shit. You landed on your feet, cat.";
         }
        else if (primeInt == 101){
 		    ArtChar1e.SetActive(false);
@@ -278,6 +280,8 @@ public void next(){
 
         }
 		       else if (primeInt == 115){
+				   ArtBG2.SetActive(false);
+		ArtBG3.SetActive(false);
 				    ArtChar1b.SetActive(false);
 		   ArtChar1a.SetActive(true);
                 Char1name.text = "SCRAPPY";
@@ -287,8 +291,7 @@ public void next(){
 
         }
 		       else if (primeInt == 116){
-				   ArtBG2.SetActive(false);
-		ArtBG3.SetActive(false);
+				   
 		        ArtChar2a.SetActive(false);
 		        ArtChar2b.SetActive(true);
                 Char1name.text = "";
@@ -317,15 +320,19 @@ public void next(){
 
         }
 		       else if (primeInt == 119){
+				   ArtBG4.SetActive(true);
+				   ArtBG2.SetActive(true);
 				    ArtChar1b.SetActive(false);
 		   ArtChar1f.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "RAT";
-                Char2speech.text = "*sip* *sip*";
+                Char2speech.text = "*siiiiip*";
 
         }
 		       else if (primeInt == 120){
+				    ArtBG4.SetActive(false);
+				   ArtBG2.SetActive(false);
 				    ArtChar2d.SetActive(false);
 		        ArtChar2e.SetActive(true);
                 Char1name.text = "SCRAPPY";

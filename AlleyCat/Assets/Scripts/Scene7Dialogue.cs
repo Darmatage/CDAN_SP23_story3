@@ -43,6 +43,8 @@ public class Scene7Dialogue : MonoBehaviour {
        //public GameObject ArtChar1b;
        //public GameObject ArtChar2;
         public GameObject ArtBG1;
+		 public GameObject ArtBG2;
+		  public GameObject ArtBG3;
         public GameObject Choice1a;
        // public GameObject Choice1b;
         public GameObject NextScene1Button;
@@ -75,6 +77,8 @@ void Start(){
 		ArtChar5d.SetActive(false);
 		ArtChar5e.SetActive(false);
         ArtBG1.SetActive(true);
+		ArtBG2.SetActive(false);
+		ArtBG3.SetActive(false);
         Choice1a.SetActive(false);
       //  Choice1b.SetActive(false);
         NextScene1Button.SetActive(false);
@@ -345,11 +349,14 @@ public void next(){
        else if (primeInt == 100){
 		   ArtChar1b.SetActive(true);
 		   ArtChar1d.SetActive(false);
-			   ArtChar2c.SetActive(false);
+			  ArtChar2a.SetActive(false);
+			  ArtChar2c.SetActive(false);
 			    ArtChar2b.SetActive(true);
+				 ArtChar3a.SetActive(false);
 			   ArtChar3c.SetActive(false);
 			    ArtChar3b.SetActive(true);
-			   ArtChar4c.SetActive(false);
+			   ArtChar4a.SetActive(false);
+			  ArtChar4c.SetActive(false);
 			   ArtChar4b.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
@@ -582,6 +589,8 @@ public void next(){
                 Char5speech.text = "But he ain't stupid enough to call me little guy.";
         }
 		else if (primeInt == 111){
+			ArtBG2.SetActive(true);
+		ArtBG3.SetActive(true);
 		  ArtChar1a.SetActive(true);
 		   ArtChar1e.SetActive(false);
 			   ArtChar2a.SetActive(false);
@@ -601,9 +610,11 @@ public void next(){
                 Char4name.text = "";
                 Char4speech.text = "";
 				Char5name.text = "RAT";
-                Char5speech.text = "*sip* *sip*";
+                Char5speech.text = "*siiiiiip*";
         }
 		else if (primeInt == 112){
+			ArtBG2.SetActive(false);
+		ArtBG3.SetActive(false);
 		  ArtChar1a.SetActive(true);
 		   ArtChar1e.SetActive(false);
 			   ArtChar2a.SetActive(true);
@@ -689,7 +700,7 @@ public void next(){
                 Char4name.text = "";
                 Char4speech.text = "";
 				Char5name.text = "";
-                Char5speech.text = "*punch* *punch* *punch* *punch* *punch* *punch* *punch* *punch* *punch* *punch* *punch* *punch*";
+                Char5speech.text = "*PUNCHPUNCHPUNCHPUNCHPUNCHPUNCHPUNCHPUNCHPUNCHPUNCH*";
         }
 		else if (primeInt == 116){
 		  ArtChar1a.SetActive(true);

@@ -450,7 +450,7 @@ public void next(){
 			  ArtChar2e.SetActive(true);
 			    ArtChar2c.SetActive(false);
                 Char1name.text = "SCRAPPY";
-                Char1speech.text = "Woah woah woah-! this is a store, not an adoption agency. Cash only!!!";
+                Char1speech.text = "Woah woah woah-! This is a store, not an adoption agency. Cash only!!!";
                 Char2name.text = "";
                 Char2speech.text = "";
         }

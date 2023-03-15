@@ -41,6 +41,7 @@ public class Scene1Dialogue : MonoBehaviour {
         public GameObject nextButton;
        public GameHandler gameHandler;
        public AudioSource SFX_catYelp;
+	   
 	   public AudioSource town_theme;
 	   public AudioSource mafia_theme;
         private bool allowSpace = true;
@@ -113,7 +114,7 @@ public void next(){
         }
 		else if (primeInt == 4){
 		    
-			
+			//AudioSource.Play(SFX_catYelp);
 		   
                 Char1name.text = "";
                 Char1speech.text = "";
@@ -189,7 +190,7 @@ public void next(){
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "BOSS";
-                Char2speech.text = "You are now three weeks behind on payments.\nYou know exactly what happens next.";
+                Char2speech.text = "You are now three weeks behind on\nyour payments, cat.\nYou know exactly what happens next.";
         
                 Char3name.text = "";
                 Char3speech.text = "";				
@@ -333,6 +334,7 @@ public void next(){
 	}
 
 	       else if (primeInt ==22){
+			  // AudioSource.Play(SFX_catYelp);
 			   ArtChar1c.SetActive(false);
 			 ArtChar1a.SetActive(true);
 			ArtChar2a.SetActive(false);
