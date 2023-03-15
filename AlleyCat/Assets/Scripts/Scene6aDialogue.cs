@@ -30,6 +30,9 @@ public class Scene6aDialogue : MonoBehaviour {
        //public GameObject ArtChar1b;
        //public GameObject ArtChar2;
         public GameObject ArtBG1;
+		public GameObject ArtBG2;
+		public GameObject ArtBG3;
+		public GameObject ArtBG4;
         public GameObject Choice1a;
         public GameObject Choice1b;
 		        public GameObject Choice2a;
@@ -55,6 +58,9 @@ void Start(){
 		ArtChar2d.SetActive(false);
 		ArtChar2e.SetActive(false);
         ArtBG1.SetActive(true);
+		ArtBG2.SetActive(false);
+		ArtBG3.SetActive(false);
+		ArtBG4.SetActive(false);
         Choice1a.SetActive(false);
         Choice1b.SetActive(false);
 		        Choice2a.SetActive(false);
@@ -166,6 +172,10 @@ public void next(){
                 Char2speech.text = "";
         }
 				       else if (primeInt ==16){
+						  
+		ArtBG2.SetActive(true);
+		ArtBG3.SetActive(true);
+		ArtBG4.SetActive(false);
 						   ArtChar1c.SetActive(false);
 		     ArtChar1b.SetActive(true);
 			ArtChar2a.SetActive(false);
@@ -225,13 +235,15 @@ public void next(){
                 Char2speech.text = "ARE YOU BLIND!?!? Look at their little legs...!!!";
         }
 			 else if (primeInt ==22){
-		
+		ArtBG2.SetActive(true);
+		ArtBG3.SetActive(false);
+		ArtBG4.SetActive(true);
 				 ArtChar1a.SetActive(true);
 		     ArtChar1d.SetActive(false);
 			ArtChar2e.SetActive(false);
 		     ArtChar2c.SetActive(true);
-                Char1name.text = "";
-                Char1speech.text = "";
+                Char1name.text = "SCRAPPY";
+                Char1speech.text = "......";
                 Char2name.text = "";
                 Char2speech.text = "";
         }
@@ -258,6 +270,9 @@ public void next(){
                 Char2speech.text = "Well I didn't say that.";
         }
 						       else if (primeInt ==25){
+								   ArtBG2.SetActive(false);
+		ArtBG3.SetActive(false);
+		ArtBG4.SetActive(false);
 								    ArtChar1a.SetActive(true);
 		     ArtChar1d.SetActive(false);
 			ArtChar2c.SetActive(false);
@@ -531,6 +546,9 @@ public void next(){
                 Char2speech.text = "";
         }
 								       else if (primeInt == 406){
+										   ArtBG2.SetActive(true);
+		ArtBG3.SetActive(false);
+		ArtBG4.SetActive(true);
 				 ArtChar1d.SetActive(false);	
 		     ArtChar1c.SetActive(true);						   
                 Char1name.text = "SCRAPPY";
@@ -539,9 +557,12 @@ public void next(){
                 Char2speech.text = "";
         }
 								       else if (primeInt == 407){
+										   ArtBG2.SetActive(false);
+		ArtBG3.SetActive(false);
+		ArtBG4.SetActive(false);
 				 ArtChar1c.SetActive(false);	
 		     ArtChar1b.SetActive(true);						   
-                Char1name.text = "";
+                Char1name.text = "SCRAPPY";
                 Char1speech.text = "*nom nom nom nom*";
                 Char2name.text = "";
                 Char2speech.text = "";

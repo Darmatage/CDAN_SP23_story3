@@ -27,6 +27,8 @@ public class Scene2Dialogue : MonoBehaviour {
         public GameObject ArtChar2e;
 		
         public GameObject ArtBG1;
+		public GameObject ArtBG2;
+		public GameObject ArtBG3;
         public GameObject Choice1a;
         public GameObject Choice1b;
 		public GameObject Choice2a;
@@ -54,6 +56,8 @@ void Start(){
 	    ArtChar2d.SetActive(false);
 		 ArtChar2e.SetActive(false);
         ArtBG1.SetActive(true);
+		ArtBG2.SetActive(false);
+		ArtBG3.SetActive(false);
         Choice1a.SetActive(false);
         Choice1b.SetActive(false);
        Choice2a.SetActive(false);
@@ -219,6 +223,8 @@ public void next(){
  
         }
        else if (primeInt == 109){
+		   ArtBG2.SetActive(true);
+		ArtBG3.SetActive(true);
                 Char1name.text = "SCRAPPY";
                 Char1speech.text = "Does this delectable goat's milk cheese pique your interest?!?";
                 Char2name.text = "";
@@ -281,6 +287,8 @@ public void next(){
 
         }
 		       else if (primeInt == 116){
+				   ArtBG2.SetActive(false);
+		ArtBG3.SetActive(false);
 		        ArtChar2a.SetActive(false);
 		        ArtChar2b.SetActive(true);
                 Char1name.text = "";
@@ -391,6 +399,8 @@ public void next(){
                
         }		
 		       else if (primeInt == 207){
+				   ArtBG2.SetActive(true);
+		ArtBG3.SetActive(true);
 				      ArtChar1c.SetActive(false);
 		     ArtChar1d.SetActive(true);
                 Char1name.text = "SCRAPPY";
@@ -425,6 +435,8 @@ public void next(){
                
         }		
 			   else if (primeInt == 211){
+				   ArtBG2.SetActive(false);
+		ArtBG3.SetActive(false);
 				   ArtChar2c.SetActive(false);
 		        ArtChar2a.SetActive(true);
                 Char1name.text = "";

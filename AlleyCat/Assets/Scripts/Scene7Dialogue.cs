@@ -199,7 +199,7 @@ public void next(){
                 Char2name.text = "";
                 Char2speech.text = "";
 				Char3name.text = "Grunt 1";
-                Char3speech.text = "You thought wrong, Scraps. We've been so patient with you- and ya still couldn't get the job done, eh?";
+                Char3speech.text = "You thought wrong, Scraps. We've been so patient with you-and ya still couldn't get the job done, eh?";
                 Char4name.text = "";
                 Char4speech.text = "";
 				Char5name.text = "";
@@ -256,7 +256,7 @@ public void next(){
 				Char3name.text = "";
                 Char3speech.text = "";
                 Char4name.text = "Grunt 2";
-                Char4speech.text = "Cut the shit. We're done waiting. Please don't squirm while we finish ya off,\n Keep SOME dignity intact.";
+                Char4speech.text = "Cut the shit. We're done waiting. Please don't squirm while we finish ya off,\nKeep SOME dignity intact.";
        Char5name.text = "";
                 Char5speech.text = "";
 	   }
@@ -485,7 +485,7 @@ public void next(){
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "BOSS";
-                Char2speech.text = "A bite sized piece a' trash has somethin' to say to ME? /n What the hell do you care for, rat?";
+                Char2speech.text = "A bite sized piece a' trash has somethin' to say to ME?\nWhat the hell do you care for, rat?";
 				Char3name.text = "";
                 Char3speech.text = "";
                 Char4name.text = "";
@@ -799,7 +799,7 @@ public void next(){
                 Char4name.text = "";
                 Char4speech.text = "";
 				Char5name.text = "RAT";
-                Char5speech.text = "But it poisoned the the guy sleepin' with my girl.\nSo I owed ya one. Thanks.";
+                Char5speech.text = "But it poisoned the the guy sleepin' with my girl. So I owed ya one.\nThanks.";
         }
 		 
        else if (primeInt == 121){
