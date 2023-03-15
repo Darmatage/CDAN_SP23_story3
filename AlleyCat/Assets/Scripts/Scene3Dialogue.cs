@@ -25,6 +25,7 @@ public class Scene3Dialogue : MonoBehaviour {
         public GameObject nextButton;
        public GameHandler gameHandler;
        //public AudioSource audioSource;
+ 	   public AudioSource town_theme;
         private bool allowSpace = true;
 
 // initial visibility settings. Any new images or buttons need to also be SetActive(false);

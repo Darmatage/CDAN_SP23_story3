@@ -31,6 +31,9 @@ public class Scene4cDialogue : MonoBehaviour {
 		public GameObject ArtChar2g;
 		public GameObject ArtChar2h;
 		public GameObject ArtChar2i;
+		public GameObject ArtChar2j;
+		public GameObject ArtChar2k;
+		public GameObject ArtChar2l;
        //public GameObject ArtChar1b;
        //public GameObject ArtChar2;
         public GameObject ArtBG1;
@@ -39,11 +42,18 @@ public class Scene4cDialogue : MonoBehaviour {
         public GameObject Choice2;
         public GameObject Choice3;
         public GameObject Choice4;
+        public GameObject ChoiceWeird;
+        public GameObject ChoiceWeird1a;
+        public GameObject ChoiceWeird1b;
+        public GameObject ChoiceWeird2;
+        public GameObject ChoiceWeird3;
         public GameObject NextScene1Button;
         public GameObject NextScene2Button;
+        public GameObject NextSceneWeirdButton;
         public GameObject nextButton;
        //public GameHandler gameHandler;
-       //public AudioSource audioSource;
+       public AudioSource scambo_theme;
+       public AudioSource scambo_intro;
         private bool allowSpace = true;
 
 // initial visibility settings. Any new images or buttons need to also be SetActive(false);
@@ -63,14 +73,23 @@ void Start(){
 		ArtChar2g.SetActive(false);
 		ArtChar2h.SetActive(false);
 		ArtChar2i.SetActive(false);
+		ArtChar2j.SetActive(false);
+		ArtChar2k.SetActive(false);
+		ArtChar2l.SetActive(false);
         ArtBG1.SetActive(true);
         Choice1a.SetActive(false);
         Choice1b.SetActive(false);
         Choice2.SetActive(false);
         Choice3.SetActive(false);
         Choice4.SetActive(false);
+        ChoiceWeird.SetActive(false);
+        ChoiceWeird1a.SetActive(false);
+        ChoiceWeird1b.SetActive(false);
+        ChoiceWeird2.SetActive(false);
+        ChoiceWeird3.SetActive(false);
         NextScene1Button.SetActive(false);
         NextScene2Button.SetActive(false);
+        NextSceneWeirdButton.SetActive(false);
         nextButton.SetActive(true);
 
      // Find the gameHandler:
@@ -100,6 +119,7 @@ public void next(){
                 Char2speech.text = "";
         }
        else if (primeInt ==3){
+		   scambo_intro.Play();
 		      ArtChar1c.SetActive(false);
 			  ArtChar2a.SetActive(true);
                 Char1name.text = "";
@@ -143,6 +163,8 @@ public void next(){
 	   }
 				
        else if (primeInt ==8){
+		   scambo_theme.Play();
+		   scambo_intro.Stop();
 			  ArtChar2c.SetActive(false);
 			  ArtChar2d.SetActive(true);
                 Char1name.text = "";
@@ -353,6 +375,7 @@ public void next(){
                 allowSpace = false;
                 Choice1a.SetActive(true);
                 Choice4.SetActive(true);
+                ChoiceWeird.SetActive(true);
 	   }
 				
 //Choice 4
@@ -368,6 +391,109 @@ public void next(){
                 NextScene2Button.SetActive(true);
         }
 		
+//Weird Route Time
+       else if (primeInt == 600){
+			  ArtChar2j.SetActive(false);
+			  ArtChar1a.SetActive(true);
+                Char1name.text = "SCRAPPY";
+                Char1speech.text = "(For once, he stopped talking.)";
+                Char2name.text = "";
+                Char2speech.text = "";
+        }
+		
+      else if (primeInt == 601){
+			  ArtChar1a.SetActive(false);
+			  ArtChar2k.SetActive(true);
+                Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "SCAMBO";
+                Char2speech.text = "Once we go down this road, there’s no turning back. Do you understand?";
+        }
+		
+       else if (primeInt == 602){
+			  ArtChar2k.SetActive(false);
+			  ArtChar2j.SetActive(true);
+                Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "";
+                Char2speech.text = "";
+				nextButton.SetActive(false);
+                allowSpace = false;
+                ChoiceWeird1a.SetActive(true);
+                ChoiceWeird1b.SetActive(true);
+	   }
+	   
+//If Chose No
+       else if (primeInt == 700){
+                Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "";
+                Char2speech.text = "";
+                nextButton.SetActive(false);
+                allowSpace = false;
+                NextScene2Button.SetActive(true);
+	   }
+		
+//Yes String
+		       else if (primeInt == 800){
+			  ArtChar2k.SetActive(false);
+			  ArtChar2j.SetActive(true);
+                Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "";
+                Char2speech.text = "";
+				nextButton.SetActive(false);
+                allowSpace = false;
+                ChoiceWeird2.SetActive(true);
+                ChoiceWeird1b.SetActive(true);
+	   }
+	   
+      else if (primeInt == 900){
+                Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "SCAMBO";
+                Char2speech.text = "If you want to turn back, take it.";
+        }
+		
+      else if (primeInt == 901){
+			  ArtChar2k.SetActive(false);
+			  ArtChar2l.SetActive(true);
+                Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "SCAMBO";
+                Char2speech.text = "N O W .";
+        }
+		
+		       else if (primeInt == 902){
+                Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "";
+                Char2speech.text = "";
+				nextButton.SetActive(false);
+                allowSpace = false;
+                ChoiceWeird3.SetActive(true);
+                ChoiceWeird1b.SetActive(true);
+	   }
+	   
+      else if (primeInt == 1000){
+			  ArtChar2k.SetActive(false);
+			  ArtChar2d.SetActive(true);
+                Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "SCAMBO";
+                Char2speech.text = "NOW THAT THE DEAL IS [[clap on, clap off]], LET ME SHOW YOU MY [[wares]]!";
+        }
+		
+       else if (primeInt == 1001){
+                Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "";
+                Char2speech.text = "";
+                nextButton.SetActive(false);
+                allowSpace = false;
+                NextSceneWeirdButton.SetActive(true);
+	   }
+	   
      }
 // THERE SHOULD ALWAYS BE TWO BRACKETS ABOVE, ONE TO CLOSE THE LAST DIALOGUE LINE AND ONE TO CLOSE THE ENTIRE STORY UNIT SECTION
 
@@ -379,6 +505,7 @@ public void next(){
 //same for the second choice saying 199, it will reroute you to the dialogue that starts at primeInt=200 bc 200 comes after 199
 //the numbers will probably get pretty big depending on how many choices you have so dont stress if they do
 
+//Normal Routes
         public void Choice1aFunct(){
 			  ArtChar2d.SetActive(false);
 			  ArtChar2i.SetActive(false);
@@ -394,6 +521,7 @@ public void next(){
                 Choice2.SetActive(false);
                 Choice3.SetActive(false);
                 Choice4.SetActive(false);
+				ChoiceWeird.SetActive(false);
                 nextButton.SetActive(true);
                 allowSpace = true;
         }
@@ -446,6 +574,84 @@ public void next(){
                 primeInt = 499;
                 Choice1a.SetActive(false);
                 Choice4.SetActive(false);
+				ChoiceWeird.SetActive(false);
+                nextButton.SetActive(true);
+                allowSpace = true;
+        }
+		
+//Weird Route
+		
+        public void ChoiceWeirdFunct(){
+		   scambo_theme.Stop();
+			  ArtChar2i.SetActive(false);
+			  ArtChar2j.SetActive(true);
+                Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "SCAMBO";
+                Char2speech.text = "...";
+                primeInt = 599;
+                Choice1a.SetActive(false);
+                Choice4.SetActive(false);
+				ChoiceWeird.SetActive(false);
+                nextButton.SetActive(true);
+                allowSpace = true;
+        }
+		
+        public void ChoiceWeird1bFunct(){
+			  ArtChar2j.SetActive(false);
+			  ArtChar2l.SetActive(false);
+			  ArtChar1a.SetActive(true);
+                Char1name.text = "SCRAPPY";
+                Char1speech.text = "(Time to get out of here.)";
+                Char2name.text = "";
+                Char2speech.text = "";
+                primeInt = 699;
+				ChoiceWeird1a.SetActive(false);
+				ChoiceWeird1b.SetActive(false);
+				ChoiceWeird2.SetActive(false);
+				ChoiceWeird3.SetActive(false);
+                nextButton.SetActive(true);
+                allowSpace = true;
+        }
+		
+        public void ChoiceWeird1aFunct(){
+			  ArtChar2j.SetActive(false);
+			  ArtChar2k.SetActive(true);
+                Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "SCAMBO";
+                Char2speech.text = "This is not a decision made lightly. You cannot turn back. Do you wish to proceed?";
+                primeInt = 799;
+				ChoiceWeird1a.SetActive(false);
+				ChoiceWeird1b.SetActive(false);
+                nextButton.SetActive(true);
+                allowSpace = true;
+        }
+		
+        public void ChoiceWeird2Funct(){
+			  ArtChar2j.SetActive(false);
+			  ArtChar2k.SetActive(true);
+                Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "SCAMBO";
+                Char2speech.text = "…I will give you one last chance.";
+                primeInt = 899;
+				ChoiceWeird2.SetActive(false);
+				ChoiceWeird1b.SetActive(false);
+                nextButton.SetActive(true);
+                allowSpace = true;
+        }
+		
+        public void ChoiceWeird3Funct(){
+			  ArtChar2l.SetActive(false);
+			  ArtChar2k.SetActive(true);
+                Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "SCAMBO";
+                Char2speech.text = "…Understood.";
+                primeInt = 999;
+				ChoiceWeird3.SetActive(false);
+				ChoiceWeird1b.SetActive(false);
                 nextButton.SetActive(true);
                 allowSpace = true;
         }
@@ -456,5 +662,8 @@ public void next(){
         }
         public void SceneChange2(){
                 SceneManager.LoadScene("Scene5");
+        }
+        public void SceneChangeWeird(){
+               SceneManager.LoadScene("SceneWeird");
         }
 }
