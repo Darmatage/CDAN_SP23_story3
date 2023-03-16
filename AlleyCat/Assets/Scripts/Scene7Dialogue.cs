@@ -51,14 +51,17 @@ public class Scene7Dialogue : MonoBehaviour {
         public GameObject NextScene2Button;
         public GameObject nextButton;
        //public GameHandler gameHandler;
-       public AudioSource mafia_theme;
+	   public AudioSource mafia_theme;
        public AudioSource rat_theme;
-       public AudioSource town_theme;
+       
+	   public AudioSource footsteps;
+	   public AudioSource beach_theme;
         private bool allowSpace = true;
 
 // initial visibility settings. Any new images or buttons need to also be SetActive(false);
 void Start(){  
-        DialogueDisplay.SetActive(false);
+        beach_theme.Play();
+		DialogueDisplay.SetActive(false);
         ArtChar1a.SetActive(false);
 		ArtChar1b.SetActive(false);
 		ArtChar1c.SetActive(false);
@@ -124,6 +127,7 @@ public void next(){
                 Char5speech.text = "";
         }
        else if (primeInt ==3){
+		   
 		   ArtChar1a.SetActive(false);
 		   ArtChar1e.SetActive(true);
 			   ArtChar2a.SetActive(false);
@@ -141,6 +145,8 @@ public void next(){
                 Char5speech.text = "";
         }
        else if (primeInt == 4){
+		  beach_theme.Stop();
+		   footsteps.Play();
 		   ArtChar1a.SetActive(true);
 		   ArtChar1e.SetActive(false);
 			   ArtChar2a.SetActive(false);
@@ -158,6 +164,7 @@ public void next(){
                 Char5speech.text = "";
         }
        else if (primeInt == 5){
+		   footsteps.Stop();
 			mafia_theme.Play();
 		   ArtChar1a.SetActive(true);
 		   ArtChar1e.SetActive(false);
@@ -731,6 +738,7 @@ public void next(){
                 Char5speech.text = "Well. That takes care of that.";
         }
 		else if (primeInt == 117){
+			beach_theme.Play();
 		  ArtChar1b.SetActive(true);
 		   ArtChar1a.SetActive(false);
 			   ArtChar2c.SetActive(false);
@@ -753,7 +761,7 @@ public void next(){
                 Char5speech.text = "";
         }
 		else if (primeInt == 118){
-			town_theme.Play();
+			
 		  ArtChar1e.SetActive(true);
 		   ArtChar1b.SetActive(false);
 			   ArtChar2c.SetActive(false);

@@ -40,12 +40,14 @@ public class Scene6bDialogue : MonoBehaviour {
         public GameObject NextScene1Button;
         public GameObject NextScene2Button;
         public GameObject nextButton;
+		public AudioSource footsteps;
        //public GameHandler gameHandler;
  	   public AudioSource beach_theme;
         private bool allowSpace = true;
 
 // initial visibility settings. Any new images or buttons need to also be SetActive(false);
 void Start(){  
+		beach_theme.Play();
         DialogueDisplay.SetActive(false);
         ArtChar1a.SetActive(false);
 		ArtChar1b.SetActive(false);
@@ -319,6 +321,7 @@ public void next(){
         }
 		
 		else if (primeInt == 108){
+			footsteps.Play();
 			ArtChar3a.SetActive(false);
                ArtChar3b.SetActive(false);
 			   ArtChar3c.SetActive(false);
@@ -334,7 +337,7 @@ public void next(){
         }
 		
        else if (primeInt == 109){
-               
+               footsteps.Stop();
                 Char1name.text = "SCRAPPY";
                 Char1speech.text = "Ah… my money… Nooo…";
                 Char2name.text = "";
@@ -446,6 +449,7 @@ public void next(){
                 Char3speech.text = "";
         }
 		else if (primeInt == 208){
+			footsteps.Play();
                ArtChar1c.SetActive(true);
                ArtChar3a.SetActive(false);
                ArtChar3b.SetActive(false);
@@ -461,6 +465,7 @@ public void next(){
                 Char3speech.text = "";
         }
        else if (primeInt == 209){
+		   footsteps.Stop();
                ArtChar1a.SetActive(true);
                ArtChar1c.SetActive(false);
                 Char1name.text = "SCRAPPY";

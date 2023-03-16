@@ -41,11 +41,13 @@ public class Scene6aDialogue : MonoBehaviour {
         public GameObject NextScene2Button;
         public GameObject nextButton;
        //public GameHandler gameHandler;
+	   public AudioSource beach_theme;
        //public AudioSource audioSource;
         private bool allowSpace = true;
 
 // initial visibility settings. Any new images or buttons need to also be SetActive(false);
 void Start(){  
+		beach_theme.Play();
         DialogueDisplay.SetActive(false);
         ArtChar1a.SetActive(false);
 		ArtChar1b.SetActive(false);

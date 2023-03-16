@@ -40,12 +40,13 @@ public class Scene2Dialogue : MonoBehaviour {
        //public GameHandler gameHandler;
        public AudioSource town_theme;
 	   public AudioSource rat_theme;
-	 
+	 public AudioSource footsteps;
         private bool allowSpace = true;
 
 // initial visibility settings. Any new images or buttons need to also be SetActive(false);
 void Start(){  
         DialogueDisplay.SetActive(false);
+		town_theme.Play();
         ArtChar1a.SetActive(false);
 		 ArtChar1b.SetActive(false);
 	  ArtChar1c.SetActive(false);
@@ -88,7 +89,7 @@ public void next(){
                 // AudioSource.Play();
         }
         else if (primeInt == 2){
-			town_theme.Play();
+			
                ArtChar1f.SetActive(true);
                 DialogueDisplay.SetActive(true);
                 Char1name.text = "SCRAPPY";
@@ -535,17 +536,19 @@ public void next(){
                
         }
 		       else if (primeInt == 303){
+				   footsteps.Play();
 				      ArtChar1b.SetActive(false);
 		     ArtChar1a.SetActive(true);
 				   ArtChar2a.SetActive(false);
 				 //   AudioSource.Play(footsteps);
                 Char1name.text = "";
                 Char1speech.text = "";
-                Char2name.text = "RAT";
+                Char2name.text = "";
                 Char2speech.text = "*step* *step* *step*";
                
         }
 		       else if (primeInt == 304){
+				   footsteps.Stop();
                 Char1name.text = "SCRAPPY";
                 Char1speech.text = "...";
                 Char2name.text = "";
@@ -622,6 +625,7 @@ public void next(){
               
         }
 		       else if (primeInt == 405){
+				   footsteps.Play();
 				   ArtChar2c.SetActive(false);
                 Char1name.text = "";
                 Char1speech.text = "*stepstepstepstep*";

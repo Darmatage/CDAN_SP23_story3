@@ -50,11 +50,14 @@ public class Scene4aDialogue: MonoBehaviour {
         public GameObject nextButton;
        //public GameHandler gameHandler;
        //public AudioSource audioSource;
+	   public AudioSource footsteps;
+	   public AudioSource the_pub;
         private bool allowSpace = true;
 
 // initial visibility settings. Any new images or buttons need to also be SetActive(false);
 void Start(){  
-        DialogueDisplay.SetActive(false);
+		the_pub.Play();
+	   DialogueDisplay.SetActive(false);
         ArtChar1a.SetActive(false);
 		ArtChar1b.SetActive(false);
 		ArtChar1c.SetActive(false);
@@ -428,6 +431,7 @@ public void next(){
                 Char4speech.text = "";
         }	
 		else if (primeInt ==35){
+			footsteps.Play();
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
@@ -438,7 +442,7 @@ public void next(){
                 Char4speech.text = "";
         }	
 		else if (primeInt ==36){
-			
+			footsteps.Stop();
 			ArtChar1c.SetActive(false);
 			  ArtChar1b.SetActive(true);
 			   ArtChar2f.SetActive(false);

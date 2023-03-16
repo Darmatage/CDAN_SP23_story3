@@ -35,12 +35,14 @@ public class Scene5Dialogue : MonoBehaviour {
         public GameObject NextScene1Button;
         public GameObject NextScene2Button;
         public GameObject nextButton;
+		public AudioSource town_theme;
        //public GameHandler gameHandler;
        //public AudioSource audioSource;
         private bool allowSpace = true;
 
 // initial visibility settings. Any new images or buttons need to also be SetActive(false);
 void Start(){  
+		town_theme.Play();
         DialogueDisplay.SetActive(false);
         ArtChar1a.SetActive(false);
 		ArtChar1b.SetActive(false);

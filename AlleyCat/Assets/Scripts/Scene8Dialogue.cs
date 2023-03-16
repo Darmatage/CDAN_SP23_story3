@@ -41,11 +41,14 @@ public class Scene8Dialogue : MonoBehaviour {
         public GameObject NextScene2Button;
         public GameObject nextButton;
        //public GameHandler gameHandler;
+	   public AudioSource beach_theme;
+	   public AudioSource footsteps;
        public AudioSource mafia_theme;
         private bool allowSpace = true;
 
 // initial visibility settings. Any new images or buttons need to also be SetActive(false);
 void Start(){  
+		beach_theme.Play();
         DialogueDisplay.SetActive(false);
         ArtChar1a.SetActive(false);
 		ArtChar1b.SetActive(false);
@@ -96,6 +99,8 @@ public void next(){
                 Char4speech.text = "";
         }
        else if (primeInt ==3){
+		   beach_theme.Stop();
+		   footsteps.Play();
 		   ArtChar1d.SetActive(false);
 		   ArtChar1a.SetActive(true);
                 Char1name.text = "";
@@ -110,6 +115,7 @@ public void next(){
         }
        else if (primeInt == 4){
 		   mafia_theme.Play();
+		   footsteps.Stop();
 		   ArtChar1d.SetActive(false);
 		   ArtChar1a.SetActive(true);
 		   ArtChar2a.SetActive(true);
@@ -306,6 +312,8 @@ public void next(){
                 Char4speech.text = "";
         }
 		       else if (primeInt == 15){
+				   mafia_theme.Stop();
+				   footsteps.Play();
 				  ArtChar1e.SetActive(false);
 		   ArtChar1a.SetActive(true); 
 				   ArtChar2a.SetActive(false);
@@ -324,6 +332,8 @@ public void next(){
                 Char4speech.text = "";
         }
 		       else if (primeInt == 16){
+				   footsteps.Stop();
+				   beach_theme.Play();
 				   ArtChar1a.SetActive(false);
 		   ArtChar1d.SetActive(true); 
                 Char1name.text = "SCRAPPY";

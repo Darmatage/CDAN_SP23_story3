@@ -30,7 +30,8 @@ public class Scene3Dialogue : MonoBehaviour {
 
 // initial visibility settings. Any new images or buttons need to also be SetActive(false);
 void Start(){  
-        DialogueDisplay.SetActive(false);
+		town_theme.Play();
+	   DialogueDisplay.SetActive(false);
         ArtChar1a.SetActive(false);
 		 ArtChar1b.SetActive(false);
 	  ArtChar1c.SetActive(false);

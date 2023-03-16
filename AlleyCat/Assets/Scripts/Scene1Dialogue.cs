@@ -40,15 +40,18 @@ public class Scene1Dialogue : MonoBehaviour {
         //public GameObject NextScene2Button;
         public GameObject nextButton;
        public GameHandler gameHandler;
-       public AudioSource SFX_catYelp;
+       
 	   public AudioSource town_theme;
 	   public AudioSource mafia_theme;
+	   public AudioSource footsteps;
         private bool allowSpace = true;
 
 // initial visibility settings. Any new images or buttons need to also be SetActive(false);
 void Start(){  
         DialogueDisplay.SetActive(false);
         ArtChar1a.SetActive(false);
+		town_theme.Play();
+		footsteps.Stop();
 		ArtChar1b.SetActive(false);
 		ArtChar1c.SetActive(false);
 		ArtChar1d.SetActive(false);
@@ -85,7 +88,7 @@ public void next(){
         if (primeInt == 1){
         }
         else if (primeInt == 2){
-			town_theme.Play ();
+			
                ArtChar1a.SetActive(true);
                 DialogueDisplay.SetActive(true);
                 Char1name.text = "SCRAPPY";
@@ -111,8 +114,9 @@ public void next(){
                 //gameHandler.AddPlayerStat(1);
         }
 		else if (primeInt == 4){
-		    
-			//AudioSource.Play(SFX_catYelp);
+		    town_theme.Stop();
+			footsteps.Play();
+			
 		   
                 Char1name.text = "";
                 Char1speech.text = "";
@@ -124,8 +128,8 @@ public void next(){
                 Char4speech.text = "";			
 		}
        else if (primeInt == 5){
-			town_theme.Stop ();
-			mafia_theme.Play ();
+			footsteps.Stop();
+			mafia_theme.Play();
 		    ArtChar1a.SetActive(false);
 		    ArtChar1e.SetActive(true);
 			
@@ -332,7 +336,8 @@ public void next(){
 	}
 
 	       else if (primeInt ==22){
-			  // AudioSource.Play(SFX_catYelp);
+			 footsteps.Play();
+			 mafia_theme.Stop();
 			   ArtChar1c.SetActive(false);
 			 ArtChar1a.SetActive(true);
 			ArtChar2a.SetActive(false);
@@ -349,6 +354,8 @@ public void next(){
                 Char4speech.text = "";	
 	}
 	       else if (primeInt ==23){
+			   footsteps.Stop();
+			   town_theme.Play();
 			   ArtChar1c.SetActive(false);
 			 ArtChar1a.SetActive(true);
 			ArtChar2a.SetActive(false);
@@ -383,7 +390,7 @@ public void next(){
 
 // ENCOUNTER AFTER CHOICE #1
        else if (primeInt == 100){
-		 //  SFX_catYelp.Stop();
+		 
 		   ArtChar4a.SetActive(false);
 			 ArtChar4b.SetActive(true);
                 Char1name.text = "";

@@ -2433,6 +2433,7 @@ MonoBehaviour:
   NextScene1Button: {fileID: 1723900428}
   NextScene2Button: {fileID: 541029973}
   nextButton: {fileID: 7837499470760767299}
+  beach_theme: {fileID: 1965978298}
 --- !u!82 &1965978298
 AudioSource:
   m_ObjectHideFlags: 0

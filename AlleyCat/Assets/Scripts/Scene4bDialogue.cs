@@ -41,11 +41,13 @@ public class Scene4bDialogue : MonoBehaviour {
         public GameObject nextButton;
        //public GameHandler gameHandler;
        //public AudioSource audioSource;
+	   public AudioSource footsteps;
 	   public AudioSource catsby_theme;
         private bool allowSpace = true;
 
 // initial visibility settings. Any new images or buttons need to also be SetActive(false);
 void Start(){  
+		catsby_theme.Play();
         DialogueDisplay.SetActive(false);
         ArtChar1a.SetActive(false);
 		ArtChar1b.SetActive(false);
@@ -109,7 +111,7 @@ public void next(){
         }
       
        else if (primeInt == 4){
-			catsby_theme.Play ();
+			
 		     ArtChar2d.SetActive(true);
 			 ArtChar2a.SetActive(false);
                 DialogueDisplay.SetActive(true);
@@ -373,7 +375,7 @@ public void next(){
                 Char2speech.text = "Now-leave me to mope by the lighthouse, won't you?";
 		}
 					  else if (primeInt == 203){
-		
+		footsteps.Play();
 		     ArtChar2d.SetActive(false);
 			 ArtChar2c.SetActive(false);
                 Char1name.text = "";
@@ -382,6 +384,7 @@ public void next(){
                 Char2speech.text = "*step* *step* *step*";
 		}
 					  else if (primeInt == 204){
+						  footsteps.Stop();
 				ArtChar1e.SetActive(true);
 		   ArtChar1c.SetActive(false);		  
                 Char1name.text = "SCRAPPY";
