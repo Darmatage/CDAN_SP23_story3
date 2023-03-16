@@ -41,6 +41,7 @@ public class Scene4bDialogue : MonoBehaviour {
         public GameObject nextButton;
        //public GameHandler gameHandler;
        //public AudioSource audioSource;
+	   public AudioSource catsby_theme;
         private bool allowSpace = true;
 
 // initial visibility settings. Any new images or buttons need to also be SetActive(false);
@@ -108,7 +109,7 @@ public void next(){
         }
       
        else if (primeInt == 4){
-		  
+			catsby_theme.Play ();
 		     ArtChar2d.SetActive(true);
 			 ArtChar2a.SetActive(false);
                 DialogueDisplay.SetActive(true);

@@ -41,7 +41,7 @@ public class Scene8Dialogue : MonoBehaviour {
         public GameObject NextScene2Button;
         public GameObject nextButton;
        //public GameHandler gameHandler;
-       //public AudioSource audioSource;
+       public AudioSource mafia_theme;
         private bool allowSpace = true;
 
 // initial visibility settings. Any new images or buttons need to also be SetActive(false);
@@ -109,6 +109,7 @@ public void next(){
              
         }
        else if (primeInt == 4){
+		   mafia_theme.Play();
 		   ArtChar1d.SetActive(false);
 		   ArtChar1a.SetActive(true);
 		   ArtChar2a.SetActive(true);

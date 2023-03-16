@@ -54,6 +54,7 @@ public class Scene4cDialogue : MonoBehaviour {
        //public GameHandler gameHandler;
        public AudioSource scambo_theme;
        public AudioSource scambo_intro;
+       public AudioSource weird_route;
         private bool allowSpace = true;
 
 // initial visibility settings. Any new images or buttons need to also be SetActive(false);
@@ -402,6 +403,7 @@ public void next(){
         }
 		
       else if (primeInt == 601){
+		   weird_route.Play();
 			  ArtChar1a.SetActive(false);
 			  ArtChar2k.SetActive(true);
                 Char1name.text = "";

@@ -38,7 +38,8 @@ public class Scene2Dialogue : MonoBehaviour {
         public GameObject NextScene2Button;
         public GameObject nextButton;
        //public GameHandler gameHandler;
-       //public AudioSource audioSource;
+       public AudioSource town_theme;
+	   public AudioSource rat_theme;
 	 
         private bool allowSpace = true;
 
@@ -87,6 +88,7 @@ public void next(){
                 // AudioSource.Play();
         }
         else if (primeInt == 2){
+			town_theme.Play();
                ArtChar1f.SetActive(true);
                 DialogueDisplay.SetActive(true);
                 Char1name.text = "SCRAPPY";
@@ -310,7 +312,8 @@ public void next(){
 
         }
 		       else if (primeInt == 118){
-				   
+				town_theme.Stop();
+				rat_theme.Play();
 				    ArtChar2b.SetActive(false);
 		        ArtChar2d.SetActive(true);
                 Char1name.text = "";

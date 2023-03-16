@@ -51,7 +51,9 @@ public class Scene7Dialogue : MonoBehaviour {
         public GameObject NextScene2Button;
         public GameObject nextButton;
        //public GameHandler gameHandler;
-       //public AudioSource audioSource;
+       public AudioSource mafia_theme;
+       public AudioSource rat_theme;
+       public AudioSource town_theme;
         private bool allowSpace = true;
 
 // initial visibility settings. Any new images or buttons need to also be SetActive(false);
@@ -156,6 +158,7 @@ public void next(){
                 Char5speech.text = "";
         }
        else if (primeInt == 5){
+			mafia_theme.Play();
 		   ArtChar1a.SetActive(true);
 		   ArtChar1e.SetActive(false);
 			   ArtChar2a.SetActive(true);
@@ -613,6 +616,7 @@ public void next(){
                 Char5speech.text = "*siiiiiip*";
         }
 		else if (primeInt == 112){
+			mafia_theme.Stop();
 			ArtBG2.SetActive(false);
 		ArtBG3.SetActive(false);
 		  ArtChar1a.SetActive(true);
@@ -637,6 +641,7 @@ public void next(){
                 Char5speech.text = "";
         }
 		else if (primeInt == 113){
+			rat_theme.Play();
 		  ArtChar1a.SetActive(true);
 		   ArtChar1e.SetActive(false);
 			   ArtChar2a.SetActive(false);
@@ -703,6 +708,7 @@ public void next(){
                 Char5speech.text = "*PUNCHPUNCHPUNCHPUNCHPUNCHPUNCHPUNCHPUNCHPUNCHPUNCH*";
         }
 		else if (primeInt == 116){
+			rat_theme.Stop();
 		  ArtChar1a.SetActive(true);
 		   ArtChar1e.SetActive(false);
 			   ArtChar2c.SetActive(false);
@@ -747,6 +753,7 @@ public void next(){
                 Char5speech.text = "";
         }
 		else if (primeInt == 118){
+			town_theme.Play();
 		  ArtChar1e.SetActive(true);
 		   ArtChar1b.SetActive(false);
 			   ArtChar2c.SetActive(false);
