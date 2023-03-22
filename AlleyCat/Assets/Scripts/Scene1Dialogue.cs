@@ -257,7 +257,7 @@ public void next(){
 		   ArtChar1c.SetActive(false);
 			 ArtChar1f.SetActive(true);
                 Char1name.text = "SCRAPPY";
-                Char1speech.text = "…heh heh…";
+                Char1speech.text = "Heh heh.";
                 Char2name.text = "";
                 Char2speech.text = "";
                 Char3name.text = "";
@@ -287,7 +287,7 @@ public void next(){
                 Char2name.text = "";
                 Char2speech.text = "";
                 Char3name.text = "GRUNT 1";
-                Char3speech.text = "And don’t try to skip town, neither.\nYou even TRY to hitch a ride…";				
+                Char3speech.text = "And don’t try to skip town, neither.\nYou even TRY to hitch a ride...";				
                 Char4name.text = "";
                 Char4speech.text = "";	
 	}
@@ -363,7 +363,7 @@ public void next(){
 		   ArtChar3a.SetActive(false);
 		   ArtChar4a.SetActive(false);
                 Char1name.text = "SCRAPPY";
-                Char1speech.text = "Okay. I got til tonight… I got til tonight…";
+                Char1speech.text = "Okay. I got til tonight. I got til tonight...!";
                 Char2name.text = "";
                 Char2speech.text = "";
                 Char3name.text = "";
@@ -460,7 +460,7 @@ public void next(){
                 Char3name.text = "";
                 Char3speech.text = "";				
                 Char4name.text = "GRUNT 2";
-                Char4speech.text = "Pretty hot!";	        
+                Char4speech.text = "Preeetty hot!";	        
 				primeInt = 10;
 		}
 		

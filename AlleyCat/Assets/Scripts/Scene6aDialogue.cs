@@ -113,7 +113,7 @@ public void next(){
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "MERMAID";
-                Char2speech.text = "GOOD DAY SIR! Hate to be a bother but you seem to be blocking the dock with your cart!";
+                Char2speech.text = "GOOD DAY SIR! Hate to be a bother, but you seem to be blocking the dock with your cart!";
         }
        else if (primeInt == 5){
 		   	ArtChar1a.SetActive(false);
@@ -257,7 +257,7 @@ public void next(){
 			ArtChar2e.SetActive(false);
 		     ArtChar2c.SetActive(true);
                 Char1name.text = "SCRAPPY";
-                Char1speech.text = "...Oh. Well. So you want to buy them?";
+                Char1speech.text = "...Oh. Well. So, you want to buy them?";
                 Char2name.text = "";
                 Char2speech.text = "";
         }
@@ -487,7 +487,7 @@ public void next(){
 				ArtChar1a.SetActive(true);	
 		     ArtChar1b.SetActive(false);							
                 Char1name.text = "SCRAPPY";
-                Char1speech.text = "Now how much did I make tonight...?";
+                Char1speech.text = "Hope I made enough to ward off the hounds...";
                 Char2name.text = "";
                 Char2speech.text = "";
 						nextButton.SetActive(false);
@@ -522,7 +522,7 @@ public void next(){
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "MERMAID";
-                Char2speech.text = "How much radiated water I've had to swim through to get to this point!";
+                Char2speech.text = "How much radioactive water I've had to swim through to get to this point!";
         }
 								       else if (primeInt == 403){
 				ArtChar2e.SetActive(false);
@@ -543,7 +543,7 @@ public void next(){
 			 ArtChar1a.SetActive(false);	
 		     ArtChar1d.SetActive(true);
                 Char1name.text = "SCRAPPY";
-                Char1speech.text = "Into the sea he goes... well carp. Crap, crap, not carp.";
+                Char1speech.text = "Into the sea he goes... well carp. Crap, crap. Not carp.";
                 Char2name.text = "";
                 Char2speech.text = "";
         }
@@ -573,7 +573,7 @@ public void next(){
 				 ArtChar1b.SetActive(false);	
 		     ArtChar1a.SetActive(true);								   
                 Char1name.text = "SCRAPPY";
-                Char1speech.text = "Ahh.. much better. Now... how much did I make tonight...?";
+                Char1speech.text = "Ahh.. much better. Now... hope I made enough to ward off the hounds...";
                 Char2name.text = "";
                 Char2speech.text = "";
 								nextButton.SetActive(false);
@@ -626,7 +626,7 @@ ArtChar1a.SetActive(false);
 						ArtChar1d.SetActive(false);						 
 		     ArtChar1e.SetActive(true);
                 Char1name.text = "SCRAPPY";
-                Char1speech.text = "A neglectful parent who left these babies to die?! These poor kids!!!";
+                Char1speech.text = "A neglectful parent who left these babies to die?! These poor souls!!!";
                 Char2name.text = "";
                 Char2speech.text = "";
                 primeInt = 299;

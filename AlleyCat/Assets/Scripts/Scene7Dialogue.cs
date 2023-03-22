@@ -45,6 +45,7 @@ public class Scene7Dialogue : MonoBehaviour {
         public GameObject ArtBG1;
 		 public GameObject ArtBG2;
 		  public GameObject ArtBG3;
+		  public GameObject ArtBG4;
         public GameObject Choice1a;
        // public GameObject Choice1b;
         public GameObject NextScene1Button;
@@ -84,6 +85,7 @@ void Start(){
         ArtBG1.SetActive(true);
 		ArtBG2.SetActive(false);
 		ArtBG3.SetActive(false);
+		ArtBG4.SetActive(false);
         Choice1a.SetActive(false);
       //  Choice1b.SetActive(false);
         NextScene1Button.SetActive(false);
@@ -227,7 +229,7 @@ public void next(){
 			    ArtChar3b.SetActive(false);
 			   ArtChar4a.SetActive(true);
                 Char1name.text = "SCRAPPY";
-                Char1speech.text = "NO-! Please pleaseplease PLEASE don't hurt me!!!";
+                Char1speech.text = "NO-! Pleasepleaseplease PLEASE don't hurt me!!!";
                 Char2name.text = "";
                 Char2speech.text = "";
 				Char3name.text = "";
@@ -330,7 +332,7 @@ public void next(){
 			   ArtChar4a.SetActive(false);
 			   ArtChar4b.SetActive(true);
                 Char1name.text = "SCRAPPY";
-                Char1speech.text = "N-NOOOOOOOOOOOOO!!!!!";
+                Char1speech.text = "NOOOOOOOOOOOOO!!!!!";
                 Char2name.text = "";
                 Char2speech.text = "";
 				Char3name.text = "";
@@ -399,7 +401,7 @@ public void next(){
                 Char4name.text = "";
                 Char4speech.text = "";
 				Char5name.text = "RAT";
-                Char5speech.text = "Down here dumbass.";
+                Char5speech.text = "Down here, dumbass.";
         }
 		else if (primeInt == 102){
 		  ArtChar1e.SetActive(true);
@@ -693,6 +695,32 @@ public void next(){
                 Char5speech.text = "";
         }
 		else if (primeInt == 115){
+			ArtBG4.SetActive(true);
+			DialogueDisplay.SetActive(false);
+		   ArtChar1a.SetActive(false);
+		   ArtChar1e.SetActive(false);
+			   ArtChar2c.SetActive(false);
+			    ArtChar2a.SetActive(false);
+			   ArtChar3a.SetActive(false);
+			    ArtChar3c.SetActive(false);
+			   ArtChar4a.SetActive(false);
+			   ArtChar4c.SetActive(false);
+			   ArtChar5d.SetActive(false);
+			   ArtChar5e.SetActive(false);
+                Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "";
+                Char2speech.text = "";
+				Char3name.text = "";
+                Char3speech.text = "";
+                Char4name.text = "";
+                Char4speech.text = "";
+				Char5name.text = "";
+                Char5speech.text = "";
+        }
+		else if (primeInt == 116){
+			
+			DialogueDisplay.SetActive(true);
 		   ArtChar1a.SetActive(false);
 		   ArtChar1e.SetActive(false);
 			   ArtChar2c.SetActive(false);
@@ -714,7 +742,8 @@ public void next(){
 				Char5name.text = "";
                 Char5speech.text = "*PUNCHPUNCHPUNCHPUNCHPUNCHPUNCHPUNCHPUNCHPUNCHPUNCH*";
         }
-		else if (primeInt == 116){
+		else if (primeInt == 117){
+			ArtBG4.SetActive(false);
 			rat_theme.Stop();
 		  ArtChar1a.SetActive(true);
 		   ArtChar1e.SetActive(false);
@@ -737,7 +766,7 @@ public void next(){
 				Char5name.text = "RAT";
                 Char5speech.text = "Well. That takes care of that.";
         }
-		else if (primeInt == 117){
+		else if (primeInt == 118){
 			beach_theme.Play();
 		  ArtChar1b.SetActive(true);
 		   ArtChar1a.SetActive(false);
@@ -760,7 +789,7 @@ public void next(){
 				Char5name.text = "";
                 Char5speech.text = "";
         }
-		else if (primeInt == 118){
+		else if (primeInt == 119){
 			
 		  ArtChar1e.SetActive(true);
 		   ArtChar1b.SetActive(false);
@@ -783,7 +812,7 @@ public void next(){
 				Char5name.text = "";
                 Char5speech.text = "";
         }
-		else if (primeInt == 119){
+		else if (primeInt == 120){
 		  ArtChar1d.SetActive(true);
 		   ArtChar1e.SetActive(false);
 			   ArtChar2c.SetActive(false);
@@ -805,7 +834,7 @@ public void next(){
 				Char5name.text = "RAT";
                 Char5speech.text = "No. That was a moldy sponge you sold me.";
         }
-		else if (primeInt == 120){
+		else if (primeInt == 121){
 		  ArtChar1a.SetActive(true);
 		   ArtChar1d.SetActive(false);
 			   ArtChar2c.SetActive(false);
@@ -825,10 +854,10 @@ public void next(){
                 Char4name.text = "";
                 Char4speech.text = "";
 				Char5name.text = "RAT";
-                Char5speech.text = "But it poisoned the the guy sleepin' with my girl. So I owed ya one.\nThanks.";
+                Char5speech.text = "But it poisoned the guy sleepin' with my girl. So I owed ya one.\nThanks.";
         }
 		 
-       else if (primeInt == 121){
+       else if (primeInt == 122){
 		   ArtChar1e.SetActive(true);
 		   ArtChar1a.SetActive(false);
 			   ArtChar2c.SetActive(false);

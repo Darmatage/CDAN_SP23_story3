@@ -115,7 +115,7 @@ public void next(){
                ArtChar1c.SetActive(true);
                 DialogueDisplay.SetActive(true);
                 Char1name.text = "SCRAPPY";
-                Char1speech.text = "Maybe there’s some more stuff to sell in this dumpster…";
+                Char1speech.text = "Maybe there’s some more stuff to sell in this dumpster...?";
                 Char2name.text = "";
                 Char2speech.text = "";
         }
@@ -133,7 +133,7 @@ public void next(){
 		      ArtChar1b.SetActive(true);
 			  ArtChar2a.SetActive(false);
                 Char1name.text = "SCRAPPY";
-                Char1speech.text = "AH!";
+                Char1speech.text = "AH!!!";
                 Char2name.text = "";
                 Char2speech.text = "";
         }
@@ -160,7 +160,7 @@ public void next(){
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "SCAMBO";
-                Char2speech.text = "WOAH, IF IT ISN’T A…";
+                Char2speech.text = "WOAH, IF IT ISN’T A...";
 	   }
 				
        else if (primeInt ==8){
@@ -206,7 +206,7 @@ public void next(){
 			  ArtChar2g.SetActive(false);
 			  ArtChar1a.SetActive(true);
                 Char1name.text = "SCRAPPY";
-                Char1speech.text = "Hmm… already not thinkin’ he’s the greatest customer…";
+                Char1speech.text = "Hmm... already not thinkin’ he’s the greatest customer...";
                 Char2name.text = "";
                 Char2speech.text = "";
 	   }
@@ -215,14 +215,14 @@ public void next(){
 			  ArtChar1a.SetActive(false);
 			  ArtChar1d.SetActive(true);
                 Char1name.text = "SCRAPPY";
-                Char1speech.text = "Hey, uh, pal… I got somethin’ really good for ya, might spice up your…";
+                Char1speech.text = "Hey, uh, pal... I got somethin’ really good for ya, might spice up your...";
                 Char2name.text = "";
                 Char2speech.text = "";
 	   }
 				
        else if (primeInt ==14){
                 Char1name.text = "SCRAPPY";
-                Char1speech.text = "…dumpster there… how would YOU be interested in a-";
+                Char1speech.text = "...dumpster there... How would YOU be interested in a-";
                 Char2name.text = "";
                 Char2speech.text = "";
 	   }
@@ -252,7 +252,7 @@ public void next(){
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "SCAMBO";
-                Char2speech.text = "BUT YOU, YOU LOOK LIKE A [[Weasely little urchin]] WHO COULD USE SOME [[Super Specal Product]]!";
+                Char2speech.text = "BUT YOU, YOU LOOK LIKE A [[Weasely little urchin]] WHO COULD USE SOME [[Super Specal Herbal Product]]!";
 	   }
 				
        else if (primeInt ==18){
@@ -270,7 +270,7 @@ public void next(){
 			  ArtChar2h.SetActive(false);
 			  ArtChar2d.SetActive(true);
                 Char1name.text = "";
-                Char1speech.text = "";
+                Char1speech.text = "Take the weed...?";
                 Char2name.text = "";
                 Char2speech.text = "";
                 // Turn off "Next" button, turn on "Choice" buttons
@@ -304,7 +304,7 @@ public void next(){
 		
        else if (primeInt == 102){
                 Char1name.text = "";
-                Char1speech.text = "";
+                Char1speech.text = "Take the weed??";
                 Char2name.text = "";
                 Char2speech.text = "";
 				//these three lines below only appear when you move onto the next scene
@@ -322,7 +322,7 @@ public void next(){
 		
        else if (primeInt == 201){
                 Char1name.text = "";
-                Char1speech.text = "";
+                Char1speech.text = "Take the weed?!?!?";
                 Char2name.text = "";
                 Char2speech.text = "";
 				nextButton.SetActive(false);
@@ -350,7 +350,7 @@ public void next(){
 		
        else if (primeInt == 302){
                 Char1name.text = "";
-                Char1speech.text = "";
+                Char1speech.text = "Take. The. Weed.";
                 Char2name.text = "";
                 Char2speech.text = "";
 				nextButton.SetActive(false);
@@ -369,7 +369,7 @@ public void next(){
 		
        else if (primeInt == 401){
                 Char1name.text = "";
-                Char1speech.text = "";
+                Char1speech.text = "TAKE! THE! GODDAMN! WEED!!!!!";
                 Char2name.text = "";
                 Char2speech.text = "";
 				nextButton.SetActive(false);
@@ -416,7 +416,7 @@ public void next(){
 			  ArtChar2k.SetActive(false);
 			  ArtChar2j.SetActive(true);
                 Char1name.text = "";
-                Char1speech.text = "";
+                Char1speech.text = "Do you understand?";
                 Char2name.text = "";
                 Char2speech.text = "";
 				nextButton.SetActive(false);
@@ -441,7 +441,7 @@ public void next(){
 			  ArtChar2k.SetActive(false);
 			  ArtChar2j.SetActive(true);
                 Char1name.text = "";
-                Char1speech.text = "";
+                Char1speech.text = "Will you keep going?";
                 Char2name.text = "";
                 Char2speech.text = "";
 				nextButton.SetActive(false);
@@ -463,12 +463,12 @@ public void next(){
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "SCAMBO";
-                Char2speech.text = "N O W .";
+                Char2speech.text = "N O W.";
         }
 		
 		       else if (primeInt == 902){
                 Char1name.text = "";
-                Char1speech.text = "";
+                Char1speech.text = "Will you continue on anyway?";
                 Char2name.text = "";
                 Char2speech.text = "";
 				nextButton.SetActive(false);
@@ -488,7 +488,7 @@ public void next(){
 		
        else if (primeInt == 1001){
                 Char1name.text = "";
-                Char1speech.text = "";
+                Char1speech.text = "Go deeper.";
                 Char2name.text = "";
                 Char2speech.text = "";
                 nextButton.SetActive(false);
@@ -559,7 +559,7 @@ public void next(){
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "SCAMBO";
-                Char2speech.text = "YO’URE REAAALLY PUSHIN MY [[sales pins]] HERE, BUD.";
+                Char2speech.text = "YOU'RE REAAALLY PUSHIN MY [[sales pins]] HERE, BUD.";
                 primeInt = 399;
                 Choice1a.SetActive(false);
                 Choice3.SetActive(false);
@@ -570,7 +570,7 @@ public void next(){
 			  ArtChar2i.SetActive(false);
 			  ArtChar1b.SetActive(true);
                 Char1name.text = "SCRAPPY";
-                Char1speech.text = "I'm gettin' outta here.";
+                Char1speech.text = "I'm gettin' outta here...";
                 Char2name.text = "";
                 Char2speech.text = "";
                 primeInt = 499;
@@ -604,7 +604,7 @@ public void next(){
 			  ArtChar2l.SetActive(false);
 			  ArtChar1a.SetActive(true);
                 Char1name.text = "SCRAPPY";
-                Char1speech.text = "(Time to get out of here.)";
+                Char1speech.text = "(Time to get out of here...)";
                 Char2name.text = "";
                 Char2speech.text = "";
                 primeInt = 699;

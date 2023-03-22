@@ -260,9 +260,9 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 0.9339623, g: 0.8416705, b: 0.22379847, a: 1}
-    m_HighlightedColor: {r: 0.8301887, g: 0.67536414, b: 0.05795654, a: 1}
-    m_PressedColor: {r: 1, g: 0.9801087, b: 0.56037736, a: 1}
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.77254903, g: 0.59607846, b: 0.3254902, a: 1}
+    m_PressedColor: {r: 0.65882355, g: 0.3764706, b: 0.101960786, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -1012,9 +1012,9 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 0.9339623, g: 0.8416705, b: 0.22379847, a: 1}
-    m_HighlightedColor: {r: 0.8301887, g: 0.67536414, b: 0.05795654, a: 1}
-    m_PressedColor: {r: 1, g: 0.9801087, b: 0.56037736, a: 1}
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.77254903, g: 0.59607846, b: 0.3254902, a: 1}
+    m_PressedColor: {r: 0.65882355, g: 0.3764706, b: 0.101960786, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -1213,9 +1213,9 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 0.9339623, g: 0.8416705, b: 0.22379847, a: 1}
-    m_HighlightedColor: {r: 0.8301887, g: 0.67536414, b: 0.05795654, a: 1}
-    m_PressedColor: {r: 1, g: 0.9801087, b: 0.56037736, a: 1}
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.77254903, g: 0.59607846, b: 0.3254902, a: 1}
+    m_PressedColor: {r: 0.65882355, g: 0.3764706, b: 0.101960786, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1

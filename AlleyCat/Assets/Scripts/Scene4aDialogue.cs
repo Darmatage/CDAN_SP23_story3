@@ -119,7 +119,7 @@ public void next(){
 	 
 	    
                 Char1name.text = "SCRAPPY";
-                Char1speech.text = "Now let's see!!!";
+                Char1speech.text = "Now, let's see!!!";
                 Char2name.text = "";
                 Char2speech.text = "";
              	Char3name.text = "";
@@ -493,7 +493,7 @@ public void next(){
 				ArtChar1e.SetActive(false);
 				ArtChar1a.SetActive(true);
                 Char1name.text = "SCRAPPY";
-                Char1speech.text = "(These cats're lining up for this stuff! Who knows what craps breeding in it though...)";
+                Char1speech.text = "(These cats're lining up for this stuff! Who knows what crap's breeding in it though...)";
                 Char2name.text = "";
                 Char2speech.text = "";
 				Char3name.text = "";
@@ -682,7 +682,7 @@ public void next(){
 				 ArtChar1e.SetActive(false);
 				 ArtChar1b.SetActive(true);
                 Char1name.text = "SCRAPPY";
-                Char1speech.text = "Ok well. That's not my name and I never gave you. My name. Ok then.";
+                Char1speech.text = "Ok well. That's not my name. And I never gave you my name. Ok then.";
                 Char2name.text = "";
                 Char2speech.text = "";
 		 		Char3name.text = "";
@@ -777,7 +777,7 @@ public void next(){
 			ArtChar1a.SetActive(false);
 			ArtChar1e.SetActive(true);
                 Char1name.text = "SCRAPPY";
-                Char1speech.text = "HAHA! What is such a funny guy doing alome at a pub? Got any pals?";
+                Char1speech.text = "HAHA! What is such a funny guy doing alone at a pub? Got any pals?";
                 Char2name.text = "";
                 Char2speech.text = "";
                 primeInt = 99;

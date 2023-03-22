@@ -94,7 +94,7 @@ public void next(){
         }
        else if (primeInt == 4){
                 Char1name.text = "";
-                Char1speech.text = "";
+                Char1speech.text = "Buy it now?";
                 Char2name.text = "";
                 Char2speech.text = "";
                 // Turn off "Next" button, turn on "Choice" buttons
@@ -119,7 +119,7 @@ public void next(){
                ArtChar2c.SetActive(false);
                ArtChar1e.SetActive(true);
                 Char1name.text = "SCRAPPY";
-                Char1speech.text = "Oh... he took... everything...";
+                Char1speech.text = "Oh... he took... everything.";
                 Char2name.text = "";
                 Char2speech.text = "";
         }
@@ -147,13 +147,13 @@ public void next(){
         }
        else if (primeInt == 105){
                 Char1name.text = "SCRAPPY";
-                Char1speech.text = "Hey! The door's locked! I'm trapped inside!";
+                Char1speech.text = "Hey! The door's locked! I'm trapped inside!!";
                 Char2name.text = "";
                 Char2speech.text = "";
         }
        else if (primeInt == 106){
                 Char1name.text = "SCRAPPY";
-                Char1speech.text = "What the hell's going on??";
+                Char1speech.text = "What the hell's going on?!?";
                 Char2name.text = "";
                 Char2speech.text = "";
         }
@@ -197,7 +197,7 @@ public void next(){
                ArtChar1a.SetActive(false);
                ArtChar1c.SetActive(true);
                 Char1name.text = "SCRAPPY";
-                Char1speech.text = "PLEASE! LET ME OUT!";
+                Char1speech.text = "PLEASE! LET ME OUT!!!";
                 Char2name.text = "";
                 Char2speech.text = "";
         }
@@ -226,7 +226,7 @@ public void next(){
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "SCAMBO";
-                Char2speech.text = "A DEALS A DEAL!";
+                Char2speech.text = "A DEAL'S A DEAL!";
                 primeInt = 99;
                 Choice1a.SetActive(false);
                 Choice1b.SetActive(false);

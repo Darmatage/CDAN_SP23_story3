@@ -524,6 +524,18 @@ PrefabInstance:
       propertyPath: m_Color.a
       value: 0.9019608
       objectReference: {fileID: 0}
+    - target: {fileID: 4150811290566430197, guid: f22f545b7e9f66d4a87b7212896b22bc, type: 3}
+      propertyPath: m_Color.b
+      value: 0.654902
+      objectReference: {fileID: 0}
+    - target: {fileID: 4150811290566430197, guid: f22f545b7e9f66d4a87b7212896b22bc, type: 3}
+      propertyPath: m_Color.g
+      value: 0.6901961
+      objectReference: {fileID: 0}
+    - target: {fileID: 4150811290566430197, guid: f22f545b7e9f66d4a87b7212896b22bc, type: 3}
+      propertyPath: m_Color.r
+      value: 0.90588236
+      objectReference: {fileID: 0}
     - target: {fileID: 4150811290566430202, guid: f22f545b7e9f66d4a87b7212896b22bc, type: 3}
       propertyPath: m_Name
       value: ButtonQuit
@@ -1240,6 +1252,26 @@ PrefabInstance:
     - target: {fileID: 942688094088683763, guid: 9ff5766852ef0104b8b568619f29ebf3, type: 3}
       propertyPath: m_Color.a
       value: 0.9019608
+      objectReference: {fileID: 0}
+    - target: {fileID: 942688094088683763, guid: 9ff5766852ef0104b8b568619f29ebf3, type: 3}
+      propertyPath: m_Color.b
+      value: 0.654902
+      objectReference: {fileID: 0}
+    - target: {fileID: 942688094088683763, guid: 9ff5766852ef0104b8b568619f29ebf3, type: 3}
+      propertyPath: m_Color.g
+      value: 0.6901961
+      objectReference: {fileID: 0}
+    - target: {fileID: 942688094088683763, guid: 9ff5766852ef0104b8b568619f29ebf3, type: 3}
+      propertyPath: m_Color.r
+      value: 0.90588236
+      objectReference: {fileID: 0}
+    - target: {fileID: 942688094088683763, guid: 9ff5766852ef0104b8b568619f29ebf3, type: 3}
+      propertyPath: m_Maskable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 942688094088683763, guid: 9ff5766852ef0104b8b568619f29ebf3, type: 3}
+      propertyPath: m_RaycastTarget
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 942688094088683764, guid: 9ff5766852ef0104b8b568619f29ebf3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target

@@ -254,7 +254,7 @@ public void next(){
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "CATSBY";
-                Char2speech.text = "Oh I didn't tell her to show up.";
+                Char2speech.text = "Oh, I didn't tell her to show up.";
         }
        else if (primeInt == 109){
 		   ArtChar1b.SetActive(true);
@@ -264,7 +264,7 @@ public void next(){
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "CATSBY";
-                Char2speech.text = "She should know when a man of my status is out on the town.";
+                Char2speech.text = "She should know when a man of my status is out on the town!";
         }
 				       else if (primeInt == 110){
 						   
@@ -372,7 +372,7 @@ public void next(){
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "CATSBY";
-                Char2speech.text = "Now-leave me to mope by the lighthouse, won't you?";
+                Char2speech.text = "Now-leave me to mope by a lighthouse, won't you?";
 		}
 					  else if (primeInt == 203){
 		footsteps.Play();
@@ -434,7 +434,7 @@ public void next(){
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "CATSBY";
-                Char2speech.text = "Okay well firstly. That's my catchphrase please refrain from saying my catchphrase.";
+                Char2speech.text = "Okay well firstly. That's my catchphrase and please refrain from saying my catchphrase.";
 		}	
 		else if (primeInt == 303){
 			ArtChar1d.SetActive(true);
@@ -613,7 +613,7 @@ public void next(){
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "CATSBY";
-                Char2speech.text = "My wealth is your wealth until the stock market crashes!";
+                Char2speech.text = "My wealth is your wealth until the stock market crashes horribly!";
 		}
 				else if (primeInt == 409){
 					ArtChar1a.SetActive(true);
@@ -656,7 +656,7 @@ public void next(){
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "CATSBY";
-                Char2speech.text = "The offer is nice but I don't erm, swing that way Old Sport.";
+                Char2speech.text = "The offer is nice but I don't, erm, swing that way Old Sport.";
 		}
 			else if (primeInt == 503){
 				ArtChar1c.SetActive(true);
@@ -685,7 +685,7 @@ public void next(){
 			 ArtChar2e.SetActive(false);
                 Char1name.text = "SCRAPPY";
                 Char1speech.text = "Nothing nevermind C'MOOON pal!! A hug is a hug!!";
-                Char2name.text = "CATSBY";
+                Char2name.text = "";
                 Char2speech.text = "";
 		}
 				else if (primeInt == 506){
