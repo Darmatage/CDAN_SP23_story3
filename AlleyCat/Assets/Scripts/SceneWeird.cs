@@ -158,8 +158,8 @@ public void next(){
                 Char2speech.text = "";
         }
        else if (primeInt == 107){
-                Char1name.text = "";
-                Char1speech.text = "";
+                Char1name.text = "SCRAPPY";
+                Char1speech.text = "AHHHH?!?!?";
                 Char2name.text = "";
                 Char2speech.text = "";
 				//these three lines below only appear when you move onto the next scene
@@ -203,8 +203,8 @@ public void next(){
         }
 		//only the last dialogue
        else if (primeInt == 204){
-                Char1name.text = "";
-                Char1speech.text = "";
+                Char1name.text = "SCRAPPY";
+                Char1speech.text = "AHHHH?!?!?";
                 Char2name.text = "";
                 Char2speech.text = "";
                 nextButton.SetActive(false);
